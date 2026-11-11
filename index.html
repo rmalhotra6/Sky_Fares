@@ -55,18 +55,21 @@ th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--lin
 th { color: var(--muted); font-weight: 500; font-size: .85rem; }
 tr:last-child td { border-bottom: 0; }
 td.price { font-weight: 600; }
+#rows td:last-child { white-space: normal; min-width: 240px; }
+.site-more { color: var(--muted); font-size: .82rem; }
+tr.watched td:first-child { font-weight: 600; }
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 6px; padding: 28px; color: var(--muted); }
 </style>
 </head>
 <body>
 <main>
   <h1>Delhi → Paris, one-way</h1>
-  <p class="sub">15 March – 2 April 2027 · non-stop or one stop · 1 adult, economy · checked every hour</p>
+  <p class="sub">15 March – 2 April 2027 · non-stop or one stop · 1 adult, economy · checked every hour on Google Flights and its booking sites</p>
   <div id="status" class="status">Loading fares…</div>
 
   <div id="app" hidden>
     <div class="controls">
-      <label>Show <select id="mode"><option value="min_all">Non-stop and one-stop</option><option value="min_nonstop">Non-stop only</option></select></label>
+      <label>Show <select id="mode"><option value="min_all">Non-stop and one-stop</option><option value="min_nonstop">Non-stop only</option><option value="best_site_price">Cheapest on a booking site</option></select></label>
       <label>Alert me below ₹ <input id="alert" type="number" min="0" step="1000" placeholder="e.g. 35000"></label>
     </div>
 
@@ -74,13 +77,20 @@ td.price { font-weight: 600; }
     <div id="cal" class="cal"></div>
     <p id="bestLine" class="best-line"></p>
 
+    <h2>Cheapest on each booking site, right now</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Booking site</th><th>Cheapest fare</th><th>Travel date</th><th>Airline</th><th>Route</th></tr></thead>
+      <tbody id="sites"></tbody>
+    </table></div>
+    <p class="hint">Prices that booking sites and airlines charge, as listed on Google Flights for the 3 cheapest flights on each date. A site shows “not listed” when Google didn’t offer it for those flights.</p>
+
     <h2>How fares have moved</h2>
     <div class="chart-wrap"><canvas id="chart" aria-label="Fare history chart"></canvas></div>
     <p class="hint">Click dates in the calendar to add or remove them from the chart.</p>
 
     <h2 id="tableTitle">Flights on the selected date</h2>
     <div class="table-wrap"><table>
-      <thead><tr><th>Fare</th><th>Airline</th><th>Departs DEL</th><th>Arrives</th><th>Airport</th><th>Route</th><th>Journey</th></tr></thead>
+      <thead><tr><th>Fare</th><th>Airline</th><th>Departs DEL</th><th>Arrives</th><th>Airport</th><th>Route</th><th>Journey</th><th>Booking sites</th></tr></thead>
       <tbody id="rows"></tbody>
     </table></div>
   </div>
@@ -112,7 +122,7 @@ function parseCSV(text) {
   return lines.filter(Boolean).map((l) => {
     const v = l.split(","), o = {};
     keys.forEach((k, i) => o[k] = v[i] ?? "");
-    for (const k of ["min_all", "min_nonstop", "min_cdg", "min_ory", "n_options"]) o[k] = o[k] === "" ? "" : Number(o[k]);
+    for (const k of ["min_all", "min_nonstop", "min_cdg", "min_ory", "n_options", "best_site_price"]) o[k] = o[k] === "" ? "" : Number(o[k]);
     return o;
   });
 }
@@ -131,7 +141,7 @@ async function load() {
   const when = new Date(latest.scraped_at);
   const ago = Math.round((Date.now() - when) / 60000);
   const st = $("status");
-  st.textContent = `Last checked ${when.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })} (${ago < 90 ? ago + " min" : Math.round(ago / 60) + " h"} ago) · ${latest.searches_ok} searches ok` + (latest.searches_failed ? `, ${latest.searches_failed} failed` : "");
+  st.textContent = `Last checked ${when.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })} (${ago < 90 ? ago + " min" : Math.round(ago / 60) + " h"} ago) · ${latest.searches_ok} searches ok` + (latest.searches_failed ? `, ${latest.searches_failed} failed` : "") + (latest.booking_status ? ` · booking sites: ${latest.booking_status}` : "");
   if (latest.searches_failed > latest.searches_ok || ago > 180) {
     st.classList.add("warn");
     st.textContent += ago > 180 ? " · checks seem to have stopped, see the setup guide" : " · many searches failed, see the setup guide";
@@ -179,8 +189,11 @@ function render(first = false) {
 
   const b = now[bestDate];
   $("bestLine").innerHTML = b ? `Cheapest right now: <strong>${inr(lo)}</strong> on <strong>${fmtDay(bestDate, { weekday: "long", day: "numeric", month: "long" })}</strong>` +
-    (mode === "min_all" ? ` with ${b.best_airline}, ${b.best_route === "Non-stop" ? "non-stop" : b.best_route}.` : ", non-stop.") : "No non-stop flights found on any date in the latest check.";
+    (mode === "min_all" ? ` with ${b.best_airline}, ${b.best_route === "Non-stop" ? "non-stop" : b.best_route}.`
+      : mode === "best_site_price" ? ` on ${b.best_site}.` : ", non-stop.")
+    : mode === "best_site_price" ? "No booking-site prices in the latest check yet." : "No non-stop flights found on any date in the latest check.";
 
+  drawSites();
   drawChart(mode);
   drawTable();
 }
@@ -211,15 +224,28 @@ function drawChart(mode) {
   });
 }
 
+function drawSites() {
+  const by = latest.by_site || {}, watched = latest.watched_sites || [];
+  const names = [...watched, ...Object.keys(by).filter((n) => !watched.includes(n)).sort((a, b) => by[a].price - by[b].price)];
+  const ordered = names.filter((n) => by[n]).sort((a, b) => by[a].price - by[b].price).concat(names.filter((n) => !by[n]));
+  $("sites").innerHTML = ordered.map((n) => {
+    const r = by[n], w = watched.includes(n) ? ' class="watched"' : "";
+    return r ? `<tr${w}><td>${n}</td><td class="price">${inr(r.price)}</td><td>${fmtDay(r.date)}</td><td>${r.airline}</td><td>${r.route}, departs ${r.departs}</td></tr>`
+             : `<tr${w}><td>${n}</td><td colspan="4" class="site-more">Not listed on Google Flights for these flights this hour</td></tr>`;
+  }).join("") || `<tr><td colspan="5">No booking-site prices yet.</td></tr>`;
+}
+
 function drawTable() {
-  const opts = (latest.options[tableDate] || []).filter((o) => $("mode").value === "min_all" || o.stops === 0);
+  const opts = (latest.options[tableDate] || []).filter((o) => $("mode").value !== "min_nonstop" || o.stops === 0);
   $("tableTitle").textContent = `Flights on ${fmtDay(tableDate, { weekday: "long", day: "numeric", month: "long" })} (latest check)`;
   $("rows").innerHTML = opts.length ? opts.map((o) => `<tr>
     <td class="price">${inr(o.price)}</td><td>${o.airline}</td><td>${o.departs}</td>
     <td>${o.arrives}${o.next_day ? " +1" : ""}</td><td>${o.to === "CDG" ? "Charles de Gaulle" : o.to === "ORY" ? "Orly" : o.to}</td>
     <td>${o.stops === 0 ? "Non-stop" : `via ${o.via}` + (o.layover_min != null ? ` (${hm(o.layover_min)} layover)` : "")}</td>
-    <td>${hm(o.journey_min)}</td></tr>`).join("")
-    : `<tr><td colspan="7">No matching flights on this date.</td></tr>`;
+    <td>${hm(o.journey_min)}</td>
+    <td>${!o.sites ? '<span class="site-more">not checked</span>' : !o.sites.length ? '<span class="site-more">none found</span>'
+      : `<strong>${o.sites[0].name} ${inr(o.sites[0].price)}</strong>` + (o.sites.length > 1 ? `<br><span class="site-more">${o.sites.slice(1, 4).map((x) => `${x.name} ${inr(x.price)}`).join(", ")}</span>` : "")}</td></tr>`).join("")
+    : `<tr><td colspan="8">No matching flights on this date.</td></tr>`;
 }
 
 $("cal").addEventListener("click", (e) => {
