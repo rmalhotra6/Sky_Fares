@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Delhi → Paris fares</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #eef2f6; --surface: #ffffff; --ink: #1d2b3a; --muted: #5d6b7a; --line: #d5dde6;
+  --saffron: #d9851f; --seine: #2f4f9e; --good: #2f7d5b; --bad: #b8433a;
+  --good-a: 47,125,91; --bad-a: 184,67,58;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121a24; --surface: #1a2532; --ink: #e6ecf2; --muted: #9aa8b6; --line: #2c3a4a;
+    --saffron: #f0a54a; --seine: #7d9ae0; --good: #5cbf8f; --bad: #e07a70; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 28px 20px 60px; }
+h1, h2 { font-family: 'IBM Plex Sans Condensed', 'IBM Plex Sans', system-ui, sans-serif; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: 2rem; margin: 0 0 4px; }
+h2 { font-size: 1.25rem; margin: 36px 0 10px; }
+.sub { color: var(--muted); margin: 0; }
+.status { display: inline-block; margin-top: 10px; padding: 4px 10px; border-radius: 4px; font-size: .85rem; background: var(--surface); border: 1px solid var(--line); }
+.status.warn { border-color: var(--bad); color: var(--bad); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; margin: 18px 0 4px; }
+.controls label { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: .9rem; }
+select, input[type=number] { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; }
+input[type=number] { width: 120px; }
+:focus-visible { outline: 2px solid var(--seine); outline-offset: 2px; }
+.cal { display: grid; grid-template-columns: repeat(auto-fill, minmax(124px, 1fr)); gap: 6px; }
+.day { text-align: left; font: inherit; color: inherit; cursor: pointer; border: 1px solid var(--line); border-radius: 6px; padding: 9px 11px; background: var(--surface); position: relative; }
+.day::before { content: ""; position: absolute; inset: 0; border-radius: 5px; background: var(--tint, transparent); pointer-events: none; }
+.day > * { position: relative; }
+.day .d { font-size: .8rem; color: var(--muted); }
+.day .p { font-size: 1.2rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.day .c { font-size: .76rem; font-variant-numeric: tabular-nums; color: var(--muted); }
+.day .c.up { color: var(--bad); } .day .c.down { color: var(--good); }
+.day.best { border: 2px solid var(--saffron); padding: 8px 10px; }
+.day.sel { box-shadow: 0 0 0 2px var(--seine); }
+.best-line { margin: 14px 0 0; }
+.chart-wrap { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; height: 360px; }
+.hint { color: var(--muted); font-size: .85rem; margin: 6px 0 0; }
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--muted); font-weight: 500; font-size: .85rem; }
+tr:last-child td { border-bottom: 0; }
+td.price { font-weight: 600; }
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 6px; padding: 28px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delhi → Paris, one-way</h1>
+  <p class="sub">15 March – 2 April 2027 · non-stop or one stop · 1 adult, economy · checked every hour</p>
+  <div id="status" class="status">Loading fares…</div>
+
+  <div id="app" hidden>
+    <div class="controls">
+      <label>Show <select id="mode"><option value="min_all">Non-stop and one-stop</option><option value="min_nonstop">Non-stop only</option></select></label>
+      <label>Alert me below ₹ <input id="alert" type="number" min="0" step="1000" placeholder="e.g. 35000"></label>
+    </div>
+
+    <h2>Cheapest fare on each date, right now</h2>
+    <div id="cal" class="cal"></div>
+    <p id="bestLine" class="best-line"></p>
+
+    <h2>How fares have moved</h2>
+    <div class="chart-wrap"><canvas id="chart" aria-label="Fare history chart"></canvas></div>
+    <p class="hint">Click dates in the calendar to add or remove them from the chart.</p>
+
+    <h2 id="tableTitle">Flights on the selected date</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Fare</th><th>Airline</th><th>Departs DEL</th><th>Arrives</th><th>Airport</th><th>Route</th><th>Journey</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+  </div>
+</main>
+
+<script>
+const START = "2027-03-15", END = "2027-04-02";
+const $ = (id) => document.getElementById(id);
+const inr = (n) => (n === "" || n == null || isNaN(n)) ? "—" : "₹" + Number(n).toLocaleString("en-IN");
+const fmtDay = (iso, opts = { weekday: "short", day: "numeric", month: "short" }) =>
+  new Date(iso + "T00:00:00").toLocaleDateString("en-GB", opts);
+const hm = (m) => `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m`;
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+let history = [], latest = null, chart = null;
+let selected = new Set(), tableDate = null;
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+                set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+
+function allDates() {
+  const out = []; let d = new Date(START + "T00:00:00Z");
+  while (d <= new Date(END + "T00:00:00Z")) { out.push(d.toISOString().slice(0, 10)); d.setUTCDate(d.getUTCDate() + 1); }
+  return out;
+}
+
+function parseCSV(text) {
+  const [head, ...lines] = text.trim().split(/\r?\n/);
+  const keys = head.split(",");
+  return lines.filter(Boolean).map((l) => {
+    const v = l.split(","), o = {};
+    keys.forEach((k, i) => o[k] = v[i] ?? "");
+    for (const k of ["min_all", "min_nonstop", "min_cdg", "min_ory", "n_options"]) o[k] = o[k] === "" ? "" : Number(o[k]);
+    return o;
+  });
+}
+
+async function load() {
+  const bust = "?t=" + Date.now();
+  try {
+    const [h, l] = await Promise.all([fetch("data/history.csv" + bust), fetch("data/latest.json" + bust)]);
+    if (!h.ok || !l.ok) throw new Error("missing");
+    history = parseCSV(await h.text());
+    latest = await l.json();
+  } catch {
+    $("status").textContent = "No fares yet. The first hourly check saves results here; refresh this page in about 10 minutes.";
+    return;
+  }
+  const when = new Date(latest.scraped_at);
+  const ago = Math.round((Date.now() - when) / 60000);
+  const st = $("status");
+  st.textContent = `Last checked ${when.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })} (${ago < 90 ? ago + " min" : Math.round(ago / 60) + " h"} ago) · ${latest.searches_ok} searches ok` + (latest.searches_failed ? `, ${latest.searches_failed} failed` : "");
+  if (latest.searches_failed > latest.searches_ok || ago > 180) {
+    st.classList.add("warn");
+    st.textContent += ago > 180 ? " · checks seem to have stopped, see the setup guide" : " · many searches failed, see the setup guide";
+  }
+  $("app").hidden = false;
+  $("mode").value = store.get("mode") || "min_all";
+  $("alert").value = store.get("alert") || "";
+  render(true);
+}
+
+function render(first = false) {
+  const mode = $("mode").value, alertBelow = Number($("alert").value) || 0;
+  const runs = [...new Set(history.map((r) => r.scraped_at))].sort();
+  const lastRun = runs.at(-1);
+  const lastMs = new Date(lastRun).getTime();
+  const prevRun = [...runs].reverse().find((t) => new Date(t).getTime() <= lastMs - 24 * 3600e3);
+  const at = (run) => Object.fromEntries(history.filter((r) => r.scraped_at === run).map((r) => [r.travel_date, r]));
+  const now = at(lastRun), prev = prevRun ? at(prevRun) : {};
+
+  const prices = Object.values(now).map((r) => r[mode]).filter((p) => p !== "");
+  const lo = Math.min(...prices), hi = Math.max(...prices);
+  const bestDate = Object.keys(now).find((d) => now[d][mode] === lo);
+
+  if (first) {
+    const cheapest3 = Object.keys(now).filter((d) => now[d][mode] !== "").sort((a, b) => now[a][mode] - now[b][mode]).slice(0, 3);
+    selected = new Set(cheapest3); tableDate = bestDate;
+  }
+
+  $("cal").innerHTML = allDates().map((d) => {
+    const p = now[d]?.[mode];
+    if (p === undefined || p === "") return `<button class="day" data-d="${d}"><div class="d">${fmtDay(d)}</div><div class="p">—</div><div class="c">no flights</div></button>`;
+    const t = hi === lo ? 0 : (p - lo) / (hi - lo);
+    const tint = t < 0.5 ? `rgba(${css("--good-a")},${(0.2 * (1 - 2 * t)).toFixed(2)})` : `rgba(${css("--bad-a")},${(0.2 * (2 * t - 1)).toFixed(2)})`;
+    let change = `<div class="c">first day of data</div>`;
+    const q = prev[d]?.[mode];
+    if (q !== undefined && q !== "") {
+      const diff = p - q;
+      change = diff === 0 ? `<div class="c">no change in 24h</div>`
+        : `<div class="c ${diff > 0 ? "up" : "down"}">${diff > 0 ? "▲" : "▼"} ${inr(Math.abs(diff))} in 24h</div>`;
+    }
+    const bell = alertBelow && p < alertBelow ? " 🔔" : "";
+    return `<button class="day${p === lo ? " best" : ""}${selected.has(d) ? " sel" : ""}" data-d="${d}" style="--tint:${tint}" aria-pressed="${selected.has(d)}">
+      <div class="d">${fmtDay(d)}${bell}</div><div class="p">${inr(p)}</div>${change}</button>`;
+  }).join("");
+
+  const b = now[bestDate];
+  $("bestLine").innerHTML = b ? `Cheapest right now: <strong>${inr(lo)}</strong> on <strong>${fmtDay(bestDate, { weekday: "long", day: "numeric", month: "long" })}</strong>` +
+    (mode === "min_all" ? ` with ${b.best_airline}, ${b.best_route === "Non-stop" ? "non-stop" : b.best_route}.` : ", non-stop.") : "No non-stop flights found on any date in the latest check.";
+
+  drawChart(mode);
+  drawTable();
+}
+
+function drawChart(mode) {
+  const runs = [...new Set(history.map((r) => r.scraped_at))].sort();
+  const labels = runs.map((t) => new Date(t).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }));
+  const palette = [css("--seine"), css("--saffron"), css("--good"), css("--bad"), "#8a6bbf", "#3b9ab0", css("--muted")];
+  const datasets = [...selected].sort().map((d, i) => {
+    const byRun = Object.fromEntries(history.filter((r) => r.travel_date === d).map((r) => [r.scraped_at, r[mode]]));
+    return { label: fmtDay(d), data: runs.map((t) => byRun[t] === "" || byRun[t] === undefined ? null : byRun[t]),
+      borderColor: palette[i % palette.length], backgroundColor: palette[i % palette.length],
+      borderWidth: 2, pointRadius: runs.length > 48 ? 0 : 2, spanGaps: true, tension: 0.2 };
+  });
+  const grid = css("--line"), text = css("--muted");
+  if (chart) chart.destroy();
+  if (typeof Chart === "undefined" || !$("chart")) {
+    const wrap = document.querySelector(".chart-wrap");
+    if (wrap) wrap.innerHTML = '<p class="hint">The chart could not load. Check your connection and refresh.</p>';
+    return;
+  }
+  chart = new Chart($("chart"), {
+    type: "line", data: { labels, datasets },
+    options: { maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      plugins: { legend: { labels: { color: text } }, tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${inr(c.parsed.y)}` } } },
+      scales: { x: { ticks: { color: text, maxTicksLimit: 10 }, grid: { color: grid } },
+                y: { ticks: { color: text, callback: (v) => inr(v) }, grid: { color: grid } } } },
+  });
+}
+
+function drawTable() {
+  const opts = (latest.options[tableDate] || []).filter((o) => $("mode").value === "min_all" || o.stops === 0);
+  $("tableTitle").textContent = `Flights on ${fmtDay(tableDate, { weekday: "long", day: "numeric", month: "long" })} (latest check)`;
+  $("rows").innerHTML = opts.length ? opts.map((o) => `<tr>
+    <td class="price">${inr(o.price)}</td><td>${o.airline}</td><td>${o.departs}</td>
+    <td>${o.arrives}${o.next_day ? " +1" : ""}</td><td>${o.to === "CDG" ? "Charles de Gaulle" : o.to === "ORY" ? "Orly" : o.to}</td>
+    <td>${o.stops === 0 ? "Non-stop" : `via ${o.via}` + (o.layover_min != null ? ` (${hm(o.layover_min)} layover)` : "")}</td>
+    <td>${hm(o.journey_min)}</td></tr>`).join("")
+    : `<tr><td colspan="7">No matching flights on this date.</td></tr>`;
+}
+
+$("cal").addEventListener("click", (e) => {
+  const btn = e.target.closest(".day"); if (!btn) return;
+  const d = btn.dataset.d; tableDate = d;
+  selected.has(d) ? selected.delete(d) : selected.add(d);
+  render();
+});
+$("mode").addEventListener("change", () => { store.set("mode", $("mode").value); render(); });
+$("alert").addEventListener("input", () => { store.set("alert", $("alert").value); render(); });
+load();
+</script>
+</body>
+</html>
