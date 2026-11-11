@@ -1,0 +1,33 @@
+name: Check fares every hour
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # every hour at :17 (UTC)
+  workflow_dispatch:        # adds a "Run workflow" button for a manual check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fare-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scrape.py
+      - name: Save results
+        run: |
+          git config user.name "fare-bot"
+          git config user.email "fare-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Fares $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git pull --rebase
+          git push
