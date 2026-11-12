@@ -1,5 +1,5 @@
 {
- "scraped_at": "2026-11-12T10:28:00Z",
+ "scraped_at": "2026-11-12T11:28:00Z",
  "searches_ok": 38,
  "searches_failed": 0,
  "booking_status": "53 of 57 flights had booking-site prices",
@@ -49,16 +49,9 @@
    "route": "via DOH",
    "departs": "16:20"
   },
-  "SWISS (airline)": {
-   "price": 131004,
-   "date": "2027-03-27",
-   "airline": "SWISS",
-   "route": "via ZRH",
-   "departs": "01:45"
-  },
   "Saudia (airline)": {
    "price": 34254,
-   "date": "2027-03-30",
+   "date": "2027-03-27",
    "airline": "Saudia",
    "route": "via RUH",
    "departs": "18:30"
@@ -564,19 +557,6 @@
     "flight_nos": "EY 219 + EY 33"
    },
    {
-    "price": 37191,
-    "airline": "SWISS",
-    "to": "CDG",
-    "stops": 1,
-    "via": "ZRH",
-    "layover_min": 70,
-    "departs": "01:45",
-    "arrives": "09:00",
-    "next_day": false,
-    "journey_min": 705,
-    "flight_nos": "LX 147 + LX 632"
-   },
-   {
     "price": 38902,
     "airline": "Emirates",
     "to": "CDG",
@@ -601,6 +581,19 @@
     "next_day": true,
     "journey_min": 820,
     "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 41355,
+    "airline": "Turkish Airlines",
+    "to": "CDG",
+    "stops": 1,
+    "via": "IST",
+    "layover_min": 240,
+    "departs": "06:55",
+    "arrives": "17:15",
+    "next_day": false,
+    "journey_min": 890,
+    "flight_nos": "TK 717 + TK 1827"
    },
    {
     "price": 43044,
@@ -1138,17 +1131,17 @@
     "sites": []
    },
    {
-    "price": 34254,
-    "airline": "Saudia",
+    "price": 40276,
+    "airline": "SWISS",
     "to": "CDG",
     "stops": 1,
-    "via": "RUH",
-    "layover_min": 280,
-    "departs": "18:30",
-    "arrives": "07:00",
-    "next_day": true,
-    "journey_min": 1020,
-    "flight_nos": "SV 761 + SV 143"
+    "via": "ZRH",
+    "layover_min": 880,
+    "departs": "01:45",
+    "arrives": "22:15",
+    "next_day": false,
+    "journey_min": 1500,
+    "flight_nos": "LX 147 + LX 646"
    },
    {
     "price": 40353,
@@ -1162,19 +1155,6 @@
     "next_day": true,
     "journey_min": 820,
     "flight_nos": "GF 135 + GF 19"
-   },
-   {
-    "price": 41859,
-    "airline": "SWISS",
-    "to": "CDG",
-    "stops": 1,
-    "via": "ZRH",
-    "layover_min": 70,
-    "departs": "01:45",
-    "arrives": "09:00",
-    "next_day": false,
-    "journey_min": 705,
-    "flight_nos": "LX 147 + LX 632"
    },
    {
     "price": 41859,
@@ -1227,6 +1207,19 @@
     "next_day": false,
     "journey_min": 740,
     "flight_nos": "EY 219 + EY 35"
+   },
+   {
+    "price": 45358,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "RUH",
+    "layover_min": 280,
+    "departs": "18:30",
+    "arrives": "07:00",
+    "next_day": true,
+    "journey_min": 1020,
+    "flight_nos": "SV 761 + SV 143"
    },
    {
     "price": 49251,
@@ -2309,19 +2302,6 @@
     ]
    },
    {
-    "price": 37191,
-    "airline": "SWISS",
-    "to": "CDG",
-    "stops": 1,
-    "via": "ZRH",
-    "layover_min": 395,
-    "departs": "01:45",
-    "arrives": "14:10",
-    "next_day": false,
-    "journey_min": 1015,
-    "flight_nos": "LX 147 + LX 638"
-   },
-   {
     "price": 42462,
     "airline": "Oman Air",
     "to": "CDG",
@@ -2333,6 +2313,19 @@
     "next_day": false,
     "journey_min": 855,
     "flight_nos": "WY 242 + WY 131"
+   },
+   {
+    "price": 43044,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 430,
+    "departs": "04:35",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 1110,
+    "flight_nos": "EY 219 + EY 33"
    },
    {
     "price": 47105,
@@ -2348,17 +2341,17 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 47681,
-    "airline": "SWISS",
+    "price": 52239,
+    "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
-    "via": "ZRH",
-    "layover_min": 320,
-    "departs": "02:55",
-    "arrives": "14:10",
-    "next_day": false,
-    "journey_min": 945,
-    "flight_nos": "LX 2647 + LX 638"
+    "via": "BAH",
+    "layover_min": 85,
+    "departs": "21:35",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 820,
+    "flight_nos": "GF 135 + GF 19"
    },
    {
     "price": 62497,
@@ -2466,6 +2459,25 @@
     ]
    },
    {
+    "price": 34254,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "RUH",
+    "layover_min": 280,
+    "departs": "18:30",
+    "arrives": "08:00",
+    "next_day": true,
+    "journey_min": 1020,
+    "flight_nos": "SV 761 + SV 143",
+    "sites": [
+     {
+      "name": "Saudia (airline)",
+      "price": 34254
+     }
+    ]
+   },
+   {
     "price": 37191,
     "airline": "SWISS",
     "to": "CDG",
@@ -2476,13 +2488,7 @@
     "arrives": "09:00",
     "next_day": false,
     "journey_min": 705,
-    "flight_nos": "LX 147 + LX 632",
-    "sites": [
-     {
-      "name": "SWISS (airline)",
-      "price": 131004
-     }
-    ]
+    "flight_nos": "LX 147 + LX 632"
    },
    {
     "price": 40353,
@@ -2535,19 +2541,6 @@
     "next_day": false,
     "journey_min": 890,
     "flight_nos": "TK 717 + TK 1827"
-   },
-   {
-    "price": 45358,
-    "airline": "Saudia",
-    "to": "CDG",
-    "stops": 1,
-    "via": "RUH",
-    "layover_min": 280,
-    "departs": "18:30",
-    "arrives": "08:00",
-    "next_day": true,
-    "journey_min": 1020,
-    "flight_nos": "SV 761 + SV 143"
    },
    {
     "price": 49251,
@@ -3555,10 +3548,6 @@
      },
      {
       "name": "FlightsMojo",
-      "price": 36754
-     },
-     {
-      "name": "Wego",
       "price": 36754
      }
     ]

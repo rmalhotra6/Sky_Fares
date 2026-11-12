@@ -2379,7 +2379,7 @@ Help Centre
 
 Displayed currencies may differ from the currencies used to purchase flights. Learn more
 
-===== LX 147 + LX 632 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTI3Ih8KA0RFTBIKMjAyNy0wMy0yNxoDWlJIKgJMWDIDMTQ3Ih8KA1pSSBIKMjAyNy0wMy0yNxoDQ0RHKgJMWDIDNjMyagcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
+===== SV 761 + SV 143 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTI3Ih8KA0RFTBIKMjAyNy0wMy0yNxoDUlVIKgJTVjIDNzYxIh8KA1JVSBIKMjAyNy0wMy0yOBoDQ0RHKgJTVjIDMTQzagcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
 Skip to main content
 Accessibility feedback
 Change appearance
@@ -2391,37 +2391,49 @@ New Delhi
 Paris
 One-wayEconomy
 1 passenger
-₹131,004
+₹34,254
 Lowest total price
+Travel update
+Air traffic disruptions may affect flights.
 Selected flights
 Track prices
 Sat 27 Mar
-01:45
+18:30
  – 
-09:00
-SWISSOperated by Helvetic
-11 hrs 45 min
+08:00+1
+Saudia
+17 hrs
 DEL–CDG
 1 stop
-1 hr 10 min ZRH
-450 kg CO2e
--10% emissions
+4 hrs 40 min RUH
+599 kg CO2e
++20% emissions
 1 free carry-on
-1st checked bag up to 23 kg free
+1st checked bag available for a fee
 Fare non-refundable, taxes may be refundableTicket changes for a fee
-Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. SWISS bag policy
+Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Saudia bag policy
 Booking options
-Book with SWISSAirline
-₹131,004
+Book with SaudiaAirline
+₹34,254
 Continue
 View options
 Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
 Price insights
-₹131,004 is typical for economy
-The least expensive flights for similar trips to Paris usually cost between ₹53,000–145,000. 
-₹131,004 is typical
-₹53,000
-₹145,000
+₹34,254 is low for Economy – ₹25,091 cheaper than usual
+The least expensive flights for similar trips to Paris usually cost between ₹39,500–98,000. 
+₹34,254 is low
+₹39,500
+₹98,000
+Price history for these flights
+25 days ago
+18 days ago
+11 days ago
+4 days ago
+₹70,000
+₹60,000
+₹50,000
+₹40,000
+₹30,000
 Language​English (United Kingdom)
 Location​India
 CurrencyINR
@@ -3582,10 +3594,6 @@ Book with EtihadAirline
 Continue
 View options
 Book with FlightsMojo
-₹36,754
-Continue
-View options
-Book with wego
 ₹36,754
 Continue
 View options
