@@ -56,6 +56,10 @@ th { color: var(--muted); font-weight: 500; font-size: .85rem; }
 tr:last-child td { border-bottom: 0; }
 td.price { font-weight: 600; }
 #rows td:last-child { white-space: normal; min-width: 240px; }
+.hourly td, .hourly th { text-align: right; }
+.hourly td:first-child, .hourly th:first-child { text-align: left; position: sticky; left: 0; background: var(--surface); }
+.hourly .chg { font-size: .78rem; margin-left: 6px; }
+.hourly .chg.up { color: var(--bad); } .hourly .chg.down { color: var(--good); }
 .site-more { color: var(--muted); font-size: .82rem; }
 tr.watched td:first-child { font-weight: 600; }
 .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 6px; padding: 28px; color: var(--muted); }
@@ -86,7 +90,14 @@ tr.watched td:first-child { font-weight: 600; }
 
     <h2>How fares have moved</h2>
     <div class="chart-wrap"><canvas id="chart" aria-label="Fare history chart"></canvas></div>
-    <p class="hint">Click dates in the calendar to add or remove them from the chart.</p>
+    <p class="hint">Click dates in the calendar to add or remove them from the chart and the table.</p>
+
+    <h2>Hour by hour</h2>
+    <div class="table-wrap"><table class="hourly">
+      <thead id="hourlyHead"></thead>
+      <tbody id="hourly"></tbody>
+    </table></div>
+    <p class="hint">Cheapest fare at each check (Indian time), newest first. ▲ / ▼ show the change since the previous check.</p>
 
     <h2 id="tableTitle">Flights on the selected date</h2>
     <div class="table-wrap"><table>
@@ -141,7 +152,7 @@ async function load() {
   const when = new Date(latest.scraped_at);
   const ago = Math.round((Date.now() - when) / 60000);
   const st = $("status");
-  st.textContent = `Last checked ${when.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })} (${ago < 90 ? ago + " min" : Math.round(ago / 60) + " h"} ago) · ${latest.searches_ok} searches ok` + (latest.searches_failed ? `, ${latest.searches_failed} failed` : "") + (latest.booking_status ? ` · booking sites: ${latest.booking_status}` : "");
+  st.textContent = `Last checked ${when.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", dateStyle: "medium", timeStyle: "short" })} IST (${ago < 90 ? ago + " min" : Math.round(ago / 60) + " h"} ago) · ${latest.searches_ok} searches ok` + (latest.searches_failed ? `, ${latest.searches_failed} failed` : "") + (latest.booking_status ? ` · booking sites: ${latest.booking_status}` : "");
   if (latest.searches_failed > latest.searches_ok || ago > 180) {
     st.classList.add("warn");
     st.textContent += ago > 180 ? " · checks seem to have stopped, see the setup guide" : " · many searches failed, see the setup guide";
@@ -195,12 +206,31 @@ function render(first = false) {
 
   drawSites();
   drawChart(mode);
+  drawHourly(mode);
   drawTable();
+}
+
+const istLabel = (t) => new Date(t).toLocaleString("en-IN", { timeZone: "Asia/Kolkata", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+
+function drawHourly(mode) {
+  const dates = [...selected].sort();
+  const runs = [...new Set(history.map((r) => r.scraped_at))].sort().reverse();
+  $("hourlyHead").innerHTML = `<tr><th>Checked at (IST)</th>${dates.map((d) => `<th>${fmtDay(d)}</th>`).join("")}</tr>`;
+  if (!dates.length) { $("hourly").innerHTML = `<tr><td>Pick dates in the calendar above.</td></tr>`; return; }
+  const val = {};
+  history.forEach((r) => { (val[r.scraped_at] ||= {})[r.travel_date] = r[mode]; });
+  $("hourly").innerHTML = runs.map((t, i) => `<tr><td>${istLabel(t)}</td>${dates.map((d) => {
+    const p = val[t]?.[d], q = runs[i + 1] !== undefined ? val[runs[i + 1]]?.[d] : undefined;
+    if (p === undefined || p === "") return "<td>—</td>";
+    let chg = "";
+    if (q !== undefined && q !== "" && p !== q) chg = `<span class="chg ${p > q ? "up" : "down"}">${p > q ? "▲" : "▼"}${inr(Math.abs(p - q))}</span>`;
+    return `<td>${inr(p)}${chg}</td>`;
+  }).join("")}</tr>`).join("");
 }
 
 function drawChart(mode) {
   const runs = [...new Set(history.map((r) => r.scraped_at))].sort();
-  const labels = runs.map((t) => new Date(t).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }));
+  const labels = runs.map(istLabel);
   const palette = [css("--seine"), css("--saffron"), css("--good"), css("--bad"), "#8a6bbf", "#3b9ab0", css("--muted")];
   const datasets = [...selected].sort().map((d, i) => {
     const byRun = Object.fromEntries(history.filter((r) => r.travel_date === d).map((r) => [r.scraped_at, r[mode]]));

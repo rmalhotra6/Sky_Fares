@@ -1,12 +1,21 @@
 name: Check fares every hour
 
+# How the hourly timer works:
+# GitHub's own schedule is unreliable (runs are often hours late or skipped),
+# so each run starts the next one itself. After checking fares, the run waits
+# until an hour has passed since it began, then triggers this workflow again.
+# The schedule below is only a backup that restarts the chain if it breaks
+# (for example after a failed run). To stop the checks, disable this workflow
+# in the Actions tab.
+
 on:
   schedule:
-    - cron: "17 * * * *"   # every hour at :17 (UTC)
-  workflow_dispatch:        # adds a "Run workflow" button for a manual check
+    - cron: "17 * * * *"   # backup: every hour at :17 (UTC)
+  workflow_dispatch:        # "Run workflow" button, also used by the self-restart
 
 permissions:
-  contents: write
+  contents: write   # save results to data/
+  actions: write    # start the next run
 
 concurrency:
   group: fare-check
@@ -15,15 +24,40 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 100
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
+      - name: Note start time
+        run: echo "STARTED=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v4
+
+      - name: Skip if fares were checked in the last 40 minutes
+        id: recent
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, time
+          from datetime import datetime
+          try:
+              t = json.load(open("data/latest.json"))["scraped_at"]
+              age = time.time() - datetime.fromisoformat(t.replace("Z", "+00:00")).timestamp()
+          except Exception:
+              age = 1e9
+          print("skip=" + ("true" if age < 40 * 60 else "false"))
+          EOF
+
       - uses: actions/setup-python@v5
+        if: steps.recent.outputs.skip != 'true'
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: python scrape.py
+      - if: steps.recent.outputs.skip != 'true'
+        run: pip install -r requirements.txt
+      - if: steps.recent.outputs.skip != 'true'
+        run: python scrape.py
+
       - name: Save results
+        if: steps.recent.outputs.skip != 'true'
         run: |
           git config user.name "fare-bot"
           git config user.email "fare-bot@users.noreply.github.com"
@@ -31,3 +65,17 @@ jobs:
           git commit -m "Fares $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
           git pull --rebase
           git push
+
+      - name: Wait, then start the next check
+        if: always()   # keep the chain going even if this check failed
+        run: |
+          wait=$(( STARTED + 3600 - $(date +%s) ))
+          if [ "$wait" -gt 0 ]; then echo "Next check in $((wait / 60)) min"; sleep "$wait"; fi
+          # If another run is already waiting (e.g. the backup schedule fired),
+          # let that one carry on instead of starting a second chain.
+          others=$(gh run list --workflow scrape.yml --repo "$GITHUB_REPOSITORY" --limit 20 \
+            --json databaseId,status \
+            --jq "[.[] | select(.databaseId != ${{ github.run_id }}) | select(.status != \"completed\")] | length")
+          if [ "$others" -gt 0 ]; then echo "Another run is queued; not starting one."; exit 0; fi
+          gh workflow run scrape.yml --repo "$GITHUB_REPOSITORY" --ref "${{ github.ref_name }}"
+          echo "Started the next check."
