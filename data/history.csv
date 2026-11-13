@@ -591,3 +591,21 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-13T15:33:00Z,2027-03-30,31684,57144,31684,,IndiGo / Qatar Airways,via DOH,12,31684,Qatar Airways (airline)
 2026-11-13T15:33:00Z,2027-04-01,25161,64657,25161,,Kuwait Airways,via KWI,11,25161,Kuwait Airways (airline)
 2026-11-13T15:33:00Z,2027-04-02,25161,64657,25161,,Kuwait Airways,via KWI,12,25161,Kuwait Airways (airline)
+2026-11-13T16:33:00Z,2027-03-15,31157,57144,31157,49272,Oman Air,via MCT,14,31157,Oman Air (airline)
+2026-11-13T16:33:00Z,2027-03-16,31684,57144,31684,49272,IndiGo / Qatar Airways,via DOH,13,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-17,31684,57144,31684,49272,IndiGo / Qatar Airways,via DOH,17,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-18,31684,57144,31684,49272,Qatar Airways,via DOH,16,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-19,31157,55833,31157,49272,Oman Air,via MCT,13,31157,Oman Air (airline)
+2026-11-13T16:33:00Z,2027-03-20,33244,64657,33244,49272,Oman Air,via MCT,14,33244,Gotogate
+2026-11-13T16:33:00Z,2027-03-21,33244,53370,33244,70698,Oman Air,via MCT,16,33244,Gotogate
+2026-11-13T16:33:00Z,2027-03-22,31157,59770,31157,81261,Oman Air,via MCT,12,31157,Oman Air (airline)
+2026-11-13T16:33:00Z,2027-03-23,31684,64657,31684,70698,Qatar Airways,via DOH,12,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-24,62518,,,62518,British Airways / Vueling,via LHR,2,62518,British Airways (airline)
+2026-11-13T16:33:00Z,2027-03-25,31684,73844,31684,70698,IndiGo / Qatar Airways,via DOH,12,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-26,31684,73844,31684,62518,IndiGo / Qatar Airways,via DOH,14,31684,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-27,33711,73844,33711,49272,Qatar Airways,via DOH,13,33711,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-28,33244,64657,33244,,Oman Air,via MCT,12,33244,Gotogate
+2026-11-13T16:33:00Z,2027-03-29,31439,57144,31439,,IndiGo / Qatar Airways,via DOH,11,31439,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-30,31439,57144,31439,,IndiGo / Qatar Airways,via DOH,11,31439,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-03-31,31439,57144,31439,,IndiGo / Qatar Airways,via DOH,11,31439,Qatar Airways (airline)
+2026-11-13T16:33:00Z,2027-04-02,25161,64657,25161,,Kuwait Airways,via KWI,12,25161,Kuwait Airways (airline)
