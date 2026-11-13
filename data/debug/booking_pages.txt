@@ -1322,7 +1322,7 @@ Help Centre
 
 Displayed currencies may differ from the currencies used to purchase flights. Learn more
 
-===== BA 136 + VY 8058 | https://www.google.com/travel/flights/booking?tfs=CBwQAhphEgoyMDI3LTAzLTIyIh8KA0RFTBIKMjAyNy0wMy0yMhoDTEhSKgJCQTIDMTM2IiAKA0xIUhIKMjAyNy0wMy0yMhoDT1JZKgJWWTIEODA1OGoHCAESA0RFTHIHCAESA09SWUABSAFwAYIBCwj___________8BmAEC&hl=en-GB&curr=INR&gl=IN
+===== WY 242 + WY 131 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTIyIh8KA0RFTBIKMjAyNy0wMy0yMhoDTUNUKgJXWTIDMjQyIh8KA01DVBIKMjAyNy0wMy0yMhoDQ0RHKgJXWTIDMTMxagcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
 Skip to main content
 Accessibility feedback
 Change appearance
@@ -1334,68 +1334,135 @@ New Delhi
 Paris
 One-wayEconomy
 1 passenger
-₹81,261
+₹31,157
 Lowest total price
+Travel update
+Air traffic disruptions may affect flights.
 Selected flights
 Track prices
 Mon 22 Mar
-07:30
+09:50
  – 
-17:45
-British Airways, Vueling
-14 hrs 45 min
-DEL–ORY
+19:35
+Oman Air
+14 hrs 15 min
+DEL–CDG
 1 stop
-3 hrs 20 min LHR
-441 kg CO2e
--12% emissions
+2 hrs 45 min MCT
+526 kg CO2e
+Avg emissions
+1 free carry-on
+1st checked bag up to 20 kg free
+Fare non-refundable, taxes may be refundableTicket changes for a fee
+Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Oman Air bag policy
 Booking options
 How options are ranked 
 Learn more about booking options
-Book with British AirwaysAirline
-Hide options
-Standard Economy or similar
-₹81,261
-No refunds
-Ticket changes for a fee
-Seat selection for a fee
-Standard seat
-Standard boarding
-1 free carry-on
-1st checked bag up to 23 kg free
+Book with Oman AirAirline
+₹31,157
 Continue
-Premium Economy or similar
-₹91,031
-No refunds
-Ticket changes for a fee
-Seat selection for a fee
-Premium seat
-Standard boarding
-1 free carry-on
-1st checked bag up to 23 kg free
-Continue
-Business Flex or similar
-₹860,133
-Full refunds
-Free change, possible fare difference
-Free seat selection
-Standard seat
-Standard boarding
-1 free carry-on
-1st checked bag up to 32 kg free
-Continue
-Fare and baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. British Airways bag policy For non-refundable fare options, taxes may be refundable.
+View options
 Book with wego
-₹82,683
+₹36,943
 Continue
 View options
 Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
 Price insights
-₹81,261 is low for Economy – ₹49,572 cheaper than usual
-The least expensive flights for similar trips to Paris usually cost between ₹82,000–230,000. 
-₹81,261 is low
-₹82,000
-₹230,000
+₹31,157 is low for Economy – ₹28,650 cheaper than usual
+The least expensive flights for similar trips to Paris usually cost between ₹44,000–140,000. 
+₹31,157 is low
+₹44,000
+₹140,000
+Price history for these flights
+54 day...
+47 days ago
+40 days ago
+33 days ago
+26 days ago
+19 days ago
+12 days ago
+5 days...
+₹40,000
+₹37,500
+₹35,000
+₹32,500
+₹30,000
+Language​English (United Kingdom)
+Location​India
+CurrencyINR
+About
+Privacy
+Terms
+Join user studies
+Feedback
+Help Centre
+
+Displayed currencies may differ from the currencies used to purchase flights. Learn more
+
+===== 6E 1307 + QR 37 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTIyIiAKA0RFTBIKMjAyNy0wMy0yMhoDRE9IKgI2RTIEMTMwNyIeCgNET0gSCjIwMjctMDMtMjMaA0NERyoCUVIyAjM3agcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
+Skip to main content
+Accessibility feedback
+Change appearance
+Sign in
+Loading results
+Itinerary summary
+Share
+New Delhi
+Paris
+One-wayEconomy
+1 passenger
+₹31,684
+Lowest total price
+Travel update
+Air traffic disruptions may affect flights.
+Selected flights
+Track prices
+Mon 22 Mar
+21:40
+ – 
+20:30+1
+IndiGo, Qatar Airways
+27 hrs 20 min
+DEL–CDG
+1 stop
+15 hrs 45 min DOH
+590 kg CO2e
++18% emissions
+1st checked bag up to 25 kg free
+Partial refund for cancellationsTicket changes for a fee
+Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Qatar Airways bag policy
+Booking options
+Book with Qatar AirwaysAirline
+₹31,684
+Continue
+View options
+Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
+Price insights
+₹31,684 is low for Economy – ₹54,779 cheaper than usual
+The least expensive flights for similar trips to Paris usually cost between ₹63,000–125,000. 
+₹31,684 is low
+₹63,000
+₹125,000
+Language​English (United Kingdom)
+Location​India
+CurrencyINR
+About
+Privacy
+Terms
+Join user studies
+Feedback
+Help Centre
+
+Displayed currencies may differ from the currencies used to purchase flights. Learn more
+
+===== EY 219 + EY 33 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTIyIh8KA0RFTBIKMjAyNy0wMy0yMhoDQVVIKgJFWTIDMjE5Ih4KA0FVSBIKMjAyNy0wMy0yMhoDQ0RHKgJFWTICMzNqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
+Skip to main content
+Accessibility feedback
+Change appearance
+Sign in
+Loading results
+Oops, something went wrong.
+Reload
 Language​English (United Kingdom)
 Location​India
 CurrencyINR
@@ -2817,199 +2884,6 @@ Help Centre
 
 Displayed currencies may differ from the currencies used to purchase flights. Learn more
 
-===== 6E 1345 + QR 39 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTMxIiAKA0RFTBIKMjAyNy0wMy0zMRoDRE9IKgI2RTIEMTM0NSIeCgNET0gSCjIwMjctMDQtMDEaA0NERyoCUVIyAjM5agcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
-Skip to main content
-Accessibility feedback
-Change appearance
-Sign in
-Loading results
-Itinerary summary
-Share
-New Delhi
-Paris
-One-wayEconomy
-1 passenger
-₹31,684
-Lowest total price
-Travel update
-Air traffic disruptions may affect flights.
-Selected flights
-Track prices
-Wed 31 Mar
-15:55
- – 
-14:25+1
-IndiGo, Qatar Airways
-26 hrs
-DEL–CDG
-1 stop
-14 hrs 30 min DOH
-585 kg CO2e
-+17% emissions
-1st checked bag up to 25 kg free
-Partial refund for cancellationsTicket changes for a fee
-Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Qatar Airways bag policy
-Booking options
-Book with Qatar AirwaysAirline
-₹31,684
-Continue
-View options
-Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
-Price insights
-₹31,684 is low for Economy – ₹54,779 cheaper than usual
-The least expensive flights for similar trips to Paris usually cost between ₹63,000–125,000. 
-₹31,684 is low
-₹63,000
-₹125,000
-Price history for these flights
-54 day...
-47 days ago
-40 days ago
-33 days ago
-26 days ago
-19 days ago
-12 days ago
-5 days...
-₹52,500
-₹45,000
-₹37,500
-₹30,000
-₹22,500
-Language​English (United Kingdom)
-Location​India
-CurrencyINR
-About
-Privacy
-Terms
-Join user studies
-Feedback
-Help Centre
-
-Displayed currencies may differ from the currencies used to purchase flights. Learn more
-
-===== 6E 1307 + QR 37 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTAzLTMxIiAKA0RFTBIKMjAyNy0wMy0zMRoDRE9IKgI2RTIEMTMwNyIeCgNET0gSCjIwMjctMDQtMDEaA0NERyoCUVIyAjM3agcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
-Skip to main content
-Accessibility feedback
-Change appearance
-Sign in
-Loading results
-Itinerary summary
-Share
-New Delhi
-Paris
-One-wayEconomy
-1 passenger
-₹31,684
-Lowest total price
-Travel update
-Air traffic disruptions may affect flights.
-Selected flights
-Track prices
-Wed 31 Mar
-21:30
- – 
-21:10+1
-IndiGo, Qatar Airways
-27 hrs 10 min
-DEL–CDG
-1 stop
-15 hrs 55 min DOH
-550 kg CO2e
-+10% emissions
-1st checked bag up to 25 kg free
-Partial refund for cancellationsTicket changes for a fee
-Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Qatar Airways bag policy
-Booking options
-Book with Qatar AirwaysAirline
-₹31,684
-Continue
-View options
-Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
-Price insights
-₹31,684 is low for Economy – ₹54,779 cheaper than usual
-The least expensive flights for similar trips to Paris usually cost between ₹63,000–125,000. 
-₹31,684 is low
-₹63,000
-₹125,000
-Language​English (United Kingdom)
-Location​India
-CurrencyINR
-About
-Privacy
-Terms
-Join user studies
-Feedback
-Help Centre
-
-Displayed currencies may differ from the currencies used to purchase flights. Learn more
-
-===== EY 215 + EY 31 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTMxIh8KA0RFTBIKMjAyNy0wMy0zMRoDQVVIKgJFWTIDMjE1Ih4KA0FVSBIKMjAyNy0wNC0wMRoDQ0RHKgJFWTICMzFqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
-Skip to main content
-Accessibility feedback
-Change appearance
-Sign in
-Loading results
-Itinerary summary
-Share
-New Delhi
-Paris
-One-wayEconomy
-1 passenger
-₹33,593
-Lowest total price
-Travel update
-Air traffic disruptions may affect flights.
-Selected flights
-Track prices
-Wed 31 Mar
-15:55
- – 
-07:55+1
-Etihad
-19 hrs 30 min
-DEL–CDG
-1 stop
-8 hrs 35 min AUH
-587 kg CO2e
-+18% emissions
-1 free carry-on
-No checked bags
-Fare non-refundable, taxes may be refundableNo ticket changes
-Baggage conditions apply to your entire trip. Baggage fees may be higher at the airport. Etihad bag policy
-Booking options
-How options are ranked 
-Learn more about booking options
-Book with EtihadAirline
-₹33,593
-Continue
-View options
-Book with FlightsMojo
-₹33,593
-Continue
-View options
-Book with wego
-₹33,593
-Continue
-View options
-Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
-Price insights
-₹33,593 is low for Economy – ₹32,839 cheaper than usual
-The least expensive flights for similar trips to Paris usually cost between ₹51,000–105,000. 
-₹33,593 is low
-₹51,000
-₹105,000
-Language​English (United Kingdom)
-Location​India
-CurrencyINR
-About
-Privacy
-Terms
-Join user studies
-Feedback
-Help Centre
-
-Displayed currencies may differ from the currencies used to purchase flights. Learn more
-
 ===== KU 382 + KU 167 | https://www.google.com/travel/flights/booking?tfs=CBwQAhpgEgoyMDI3LTA0LTAxIh8KA0RFTBIKMjAyNy0wNC0wMRoDS1dJKgJLVTIDMzgyIh8KA0tXSRIKMjAyNy0wNC0wMRoDQ0RHKgJLVTIDMTY3agcIARIDREVMcgcIARIDQ0RHQAFIAXABggELCP___________wGYAQI&hl=en-GB&curr=INR&gl=IN
 Skip to main content
 Accessibility feedback
@@ -3112,7 +2986,7 @@ Book with wego
 Continue
 View options
 Book with Travomint
-₹39,284
+₹28,942
 Continue
 View options
 Prices include required taxes + fees for 1 adult. Optional charges and bag fees may apply.
