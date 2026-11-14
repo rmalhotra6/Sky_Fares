@@ -962,3 +962,13 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-14T13:37:00Z,2027-03-30,31714,57174,31714,,IndiGo / Qatar Airways,via DOH,12,31714,Qatar Airways (airline)
 2026-11-14T13:37:00Z,2027-03-31,31469,57174,31469,,IndiGo / Qatar Airways,via DOH,11,31469,Qatar Airways (airline)
 2026-11-14T13:37:00Z,2027-04-01,25176,60205,25176,,Kuwait Airways,via KWI,12,25176,Kuwait Airways (airline)
+2026-11-14T14:37:00Z,2027-03-15,33631,57174,33631,,Etihad,via AUH,11,33631,Etihad (airline)
+2026-11-14T14:37:00Z,2027-03-17,31714,57174,31714,49331,IndiGo / Qatar Airways,via DOH,16,31714,Qatar Airways (airline)
+2026-11-14T14:37:00Z,2027-03-18,49331,,,49331,British Airways / Vueling,via LHR,2,49331,British Airways (airline)
+2026-11-14T14:37:00Z,2027-03-19,31162,55874,31162,,Oman Air,via MCT,11,31162,Oman Air (airline)
+2026-11-14T14:37:00Z,2027-03-20,33243,64687,33243,,Oman Air,via MCT,12,33243,Gotogate
+2026-11-14T14:37:00Z,2027-03-23,31714,64687,31714,,IndiGo / Qatar Airways,via DOH,11,31714,Qatar Airways (airline)
+2026-11-14T14:37:00Z,2027-03-24,31714,64687,31714,,IndiGo / Qatar Airways,via DOH,12,31714,Qatar Airways (airline)
+2026-11-14T14:37:00Z,2027-03-26,31714,73874,31714,62577,Qatar Airways,via DOH,14,31714,Qatar Airways (airline)
+2026-11-14T14:37:00Z,2027-03-27,33741,73874,33741,49331,IndiGo / Qatar Airways,via DOH,12,33741,Qatar Airways (airline)
+2026-11-14T14:37:00Z,2027-03-31,31469,57174,31469,,IndiGo / Qatar Airways,via DOH,11,31469,Qatar Airways (airline)
