@@ -1,8 +1,8 @@
 {
- "scraped_at": "2026-11-17T19:08:00Z",
+ "scraped_at": "2026-11-17T20:08:00Z",
  "searches_ok": 38,
  "searches_failed": 0,
- "booking_status": "54 of 54 flights had booking-site prices",
+ "booking_status": "57 of 57 flights had booking-site prices",
  "watched_sites": [
   "MakeMyTrip",
   "Goibibo",
@@ -30,14 +30,14 @@
   },
   "Wego": {
    "price": 25177,
-   "date": "2027-04-02",
+   "date": "2027-04-01",
    "airline": "Kuwait Airways",
    "route": "via KWI",
    "departs": "02:00"
   },
   "Gotogate": {
    "price": 27249,
-   "date": "2027-04-02",
+   "date": "2027-04-01",
    "airline": "Kuwait Airways",
    "route": "via KWI",
    "departs": "02:00"
@@ -50,18 +50,18 @@
    "departs": "16:20"
   },
   "Gulf Air (airline)": {
-   "price": 33075,
-   "date": "2027-03-18",
+   "price": 27630,
+   "date": "2027-04-01",
    "airline": "Gulf Air",
    "route": "via BAH",
-   "departs": "21:35"
+   "departs": "21:50"
   },
   "Travomint": {
-   "price": 34769,
-   "date": "2027-03-18",
+   "price": 29051,
+   "date": "2027-04-01",
    "airline": "Gulf Air",
    "route": "via BAH",
-   "departs": "21:35"
+   "departs": "21:50"
   },
   "Oman Air (airline)": {
    "price": 31168,
@@ -72,14 +72,21 @@
   },
   "Saudia (airline)": {
    "price": 34251,
-   "date": "2027-03-29",
+   "date": "2027-03-28",
    "airline": "Saudia",
    "route": "via JED",
    "departs": "20:05"
   },
+  "Emirates (airline)": {
+   "price": 38966,
+   "date": "2027-03-31",
+   "airline": "Emirates",
+   "route": "via DXB",
+   "departs": "11:00"
+  },
   "Kuwait Airways (airline)": {
    "price": 25177,
-   "date": "2027-04-02",
+   "date": "2027-04-01",
    "airline": "Kuwait Airways",
    "route": "via KWI",
    "departs": "02:00"
@@ -181,7 +188,7 @@
     ]
    },
    {
-    "price": 38078,
+    "price": 38072,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -194,7 +201,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -220,7 +227,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 47402,
+    "price": 47351,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -233,7 +240,7 @@
     "flight_nos": "TK 717 + TK 1825"
    },
    {
-    "price": 48080,
+    "price": 48044,
     "airline": "Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -349,7 +356,7 @@
     ]
    },
    {
-    "price": 32684,
+    "price": 32639,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -437,7 +444,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 39003,
+    "price": 38966,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -450,7 +457,7 @@
     "flight_nos": "EK 511 + EK 75"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -463,7 +470,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42483,
+    "price": 42477,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -476,7 +483,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 42567,
+    "price": 42516,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -605,7 +612,7 @@
     ]
    },
    {
-    "price": 33253,
+    "price": 33240,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -624,7 +631,7 @@
     ]
    },
    {
-    "price": 36878,
+    "price": 36833,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -660,7 +667,7 @@
     "flight_nos": "EY 215 + EY 31"
    },
    {
-    "price": 39444,
+    "price": 39406,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -686,7 +693,7 @@
     "flight_nos": "SV 759 + SV 127"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -699,7 +706,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42567,
+    "price": 42516,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -738,7 +745,7 @@
     "flight_nos": "BA 136 + VY 8058"
    },
    {
-    "price": 49923,
+    "price": 49886,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -764,7 +771,7 @@
     "flight_nos": "BA 256 + VY 8058"
    },
    {
-    "price": 57224,
+    "price": 57189,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -790,7 +797,7 @@
     "flight_nos": "AF 225"
    },
    {
-    "price": 75147,
+    "price": 75100,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -864,7 +871,7 @@
     ]
    },
    {
-    "price": 33113,
+    "price": 33075,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -891,7 +898,7 @@
     ]
    },
    {
-    "price": 33253,
+    "price": 33240,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -904,7 +911,7 @@
     "flight_nos": "WY 246 + WY 131"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -917,7 +924,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42483,
+    "price": 42477,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -930,7 +937,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 42567,
+    "price": 42516,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -943,7 +950,7 @@
     "flight_nos": "TK 717 + TK 1825"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -956,7 +963,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 45194,
+    "price": 45149,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1008,7 +1015,7 @@
     "flight_nos": "AF 215"
    },
    {
-    "price": 57224,
+    "price": 57189,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -1021,7 +1028,7 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 75358,
+    "price": 75280,
     "airline": "Lufthansa",
     "to": "CDG",
     "stops": 1,
@@ -1063,7 +1070,7 @@
     ]
    },
    {
-    "price": 31615,
+    "price": 31578,
     "airline": "Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1086,7 +1093,7 @@
     ]
    },
    {
-    "price": 31615,
+    "price": 31578,
     "airline": "IndiGo / Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1109,7 +1116,7 @@
     ]
    },
    {
-    "price": 39444,
+    "price": 39406,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -1122,7 +1129,7 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -1135,7 +1142,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1200,7 +1207,7 @@
     "flight_nos": "AF 225"
    },
    {
-    "price": 57224,
+    "price": 57189,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -1260,7 +1267,7 @@
     ]
    },
    {
-    "price": 33642,
+    "price": 33605,
     "airline": "IndiGo / Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1283,7 +1290,7 @@
     ]
    },
    {
-    "price": 40457,
+    "price": 40419,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -1310,7 +1317,7 @@
     ]
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -1323,7 +1330,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1349,7 +1356,7 @@
     "flight_nos": "EY 215 + EY 31"
    },
    {
-    "price": 44593,
+    "price": 44542,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -1388,7 +1395,7 @@
     "flight_nos": "BA 136 + VY 8058"
    },
    {
-    "price": 51970,
+    "price": 51933,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -1401,7 +1408,7 @@
     "flight_nos": "EK 511 + EK 75"
    },
    {
-    "price": 64737,
+    "price": 64702,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -1427,7 +1434,7 @@
     "flight_nos": "BA 256 + VY 8058"
    },
    {
-    "price": 86046,
+    "price": 85999,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -1474,7 +1481,7 @@
     ]
    },
    {
-    "price": 33642,
+    "price": 33605,
     "airline": "Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1497,7 +1504,7 @@
     ]
    },
    {
-    "price": 33642,
+    "price": 33605,
     "airline": "IndiGo / Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1520,19 +1527,6 @@
     ]
    },
    {
-    "price": 33642,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 945,
-    "departs": "21:40",
-    "arrives": "20:30",
-    "next_day": true,
-    "journey_min": 1640,
-    "flight_nos": "6E 1307 + QR 37"
-   },
-   {
     "price": 34251,
     "airline": "Saudia",
     "to": "CDG",
@@ -1546,7 +1540,7 @@
     "flight_nos": "SV 759 + SV 127"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1572,7 +1566,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 44593,
+    "price": 44542,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -1585,7 +1579,7 @@
     "flight_nos": "TK 717 + TK 1825"
    },
    {
-    "price": 46942,
+    "price": 46958,
     "airline": "EgyptAir",
     "to": "CDG",
     "stops": 1,
@@ -1611,7 +1605,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 50863,
+    "price": 50795,
     "airline": "LOT",
     "to": "CDG",
     "stops": 1,
@@ -1624,7 +1618,7 @@
     "flight_nos": "LO 72 + LO 335"
    },
    {
-    "price": 53357,
+    "price": 53319,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -1648,6 +1642,19 @@
     "next_day": false,
     "journey_min": 580,
     "flight_nos": "AF 215"
+   },
+   {
+    "price": 55215,
+    "airline": "Finnair",
+    "to": "CDG",
+    "stops": 1,
+    "via": "HEL",
+    "layover_min": 115,
+    "departs": "07:50",
+    "arrives": "18:15",
+    "next_day": false,
+    "journey_min": 895,
+    "flight_nos": "AY 122 + AY 1577"
    },
    {
     "price": 55943,
@@ -1744,7 +1751,7 @@
     ]
    },
    {
-    "price": 31615,
+    "price": 31578,
     "airline": "Qatar Airways",
     "to": "CDG",
     "stops": 1,
@@ -1767,30 +1774,7 @@
     ]
    },
    {
-    "price": 31615,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 840,
-    "departs": "16:20",
-    "arrives": "13:15",
-    "next_day": true,
-    "journey_min": 1525,
-    "flight_nos": "6E 1345 + QR 39",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 36765
-     },
-     {
-      "name": "Gotogate",
-      "price": 39934
-     }
-    ]
-   },
-   {
-    "price": 32684,
+    "price": 32639,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1800,10 +1784,28 @@
     "arrives": "18:35",
     "next_day": false,
     "journey_min": 1110,
-    "flight_nos": "EY 219 + EY 33"
+    "flight_nos": "EY 219 + EY 33",
+    "sites": [
+     {
+      "name": "Etihad (airline)",
+      "price": 32639
+     },
+     {
+      "name": "FlightsMojo",
+      "price": 32639
+     },
+     {
+      "name": "Wego",
+      "price": 32639
+     },
+     {
+      "name": "Gotogate",
+      "price": 34711
+     }
+    ]
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -1829,7 +1831,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 47402,
+    "price": 47351,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -1840,6 +1842,19 @@
     "next_day": false,
     "journey_min": 725,
     "flight_nos": "TK 717 + TK 1825"
+   },
+   {
+    "price": 49886,
+    "airline": "Emirates",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DXB",
+    "layover_min": 105,
+    "departs": "10:35",
+    "arrives": "19:25",
+    "next_day": false,
+    "journey_min": 800,
+    "flight_nos": "EK 511 + EK 75"
    },
    {
     "price": 63356,
@@ -1942,7 +1957,7 @@
     ]
    },
    {
-    "price": 32684,
+    "price": 32639,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -1973,7 +1988,7 @@
     ]
    },
    {
-    "price": 33113,
+    "price": 33075,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -1999,7 +2014,7 @@
     "flight_nos": "SV 761 + SV 143"
    },
    {
-    "price": 38078,
+    "price": 38072,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -2012,7 +2027,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -2038,7 +2053,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 64737,
+    "price": 64702,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -2115,7 +2130,7 @@
     ]
    },
    {
-    "price": 33253,
+    "price": 33240,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -2157,7 +2172,7 @@
     ]
    },
    {
-    "price": 36878,
+    "price": 36833,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -2170,7 +2185,7 @@
     "flight_nos": "EY 219 + EY 33"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -2183,7 +2198,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42567,
+    "price": 42516,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -2196,7 +2211,7 @@
     "flight_nos": "TK 717 + TK 1827"
    },
    {
-    "price": 49923,
+    "price": 49886,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -2209,7 +2224,7 @@
     "flight_nos": "EK 513 + EK 75"
    },
    {
-    "price": 50863,
+    "price": 50795,
     "airline": "LOT",
     "to": "CDG",
     "stops": 1,
@@ -2248,7 +2263,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 58780,
+    "price": 58742,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -2261,7 +2276,33 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 64737,
+    "price": 62605,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 200,
+    "departs": "07:30",
+    "arrives": "17:45",
+    "next_day": false,
+    "journey_min": 885,
+    "flight_nos": "BA 136 + VY 8058"
+   },
+   {
+    "price": 64023,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 1440,
+    "departs": "10:50",
+    "arrives": "17:45",
+    "next_day": true,
+    "journey_min": 2125,
+    "flight_nos": "BA 256 + VY 8058"
+   },
+   {
+    "price": 64702,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -2361,7 +2402,7 @@
     ]
    },
    {
-    "price": 38078,
+    "price": 38072,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -2388,7 +2429,7 @@
     ]
    },
    {
-    "price": 39444,
+    "price": 39406,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -2401,7 +2442,7 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -2414,7 +2455,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42567,
+    "price": 42516,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -2427,7 +2468,7 @@
     "flight_nos": "TK 717 + TK 1825"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -2440,7 +2481,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 49923,
+    "price": 49886,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -2466,7 +2507,7 @@
     "flight_nos": "BA 136 + VY 8058"
    },
    {
-    "price": 64103,
+    "price": 64023,
     "airline": "British Airways / Vueling",
     "to": "ORY",
     "stops": 1,
@@ -2479,7 +2520,7 @@
     "flight_nos": "BA 256 + VY 8058"
    },
    {
-    "price": 73924,
+    "price": 73889,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -2566,30 +2607,7 @@
     ]
    },
    {
-    "price": 31578,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 945,
-    "departs": "21:40",
-    "arrives": "20:30",
-    "next_day": true,
-    "journey_min": 1640,
-    "flight_nos": "6E 1307 + QR 37",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 31578
-     },
-     {
-      "name": "Gotogate",
-      "price": 34474
-     }
-    ]
-   },
-   {
-    "price": 39444,
+    "price": 39406,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -2602,7 +2620,7 @@
     "flight_nos": "GF 131 + GF 19"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -2615,7 +2633,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 42483,
+    "price": 42477,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -2628,7 +2646,7 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 43168,
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -2641,7 +2659,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 46942,
+    "price": 46945,
     "airline": "EgyptAir",
     "to": "CDG",
     "stops": 1,
@@ -2654,7 +2672,7 @@
     "flight_nos": "MS 974 + MS 801"
    },
    {
-    "price": 52343,
+    "price": 52305,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -2680,7 +2698,7 @@
     "flight_nos": "BA 136 + VY 8058"
    },
    {
-    "price": 68123,
+    "price": 68076,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -2693,7 +2711,7 @@
     "flight_nos": "AF 215"
    },
    {
-    "price": 73924,
+    "price": 73889,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -2706,7 +2724,7 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 77405,
+    "price": 77358,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -2719,7 +2737,7 @@
     "flight_nos": "AF 225"
    },
    {
-    "price": 86578,
+    "price": 86500,
     "airline": "Lufthansa",
     "to": "CDG",
     "stops": 1,
@@ -2734,53 +2752,30 @@
   ],
   "2027-03-27": [
    {
-    "price": 33605,
+    "price": 38792,
     "airline": "Qatar Airways",
     "to": "CDG",
     "stops": 1,
     "via": "DOH",
-    "layover_min": 1645,
+    "layover_min": 825,
     "departs": "09:55",
-    "arrives": "21:10",
+    "arrives": "07:30",
     "next_day": true,
-    "journey_min": 2325,
-    "flight_nos": "QR 571 + QR 37",
+    "journey_min": 1505,
+    "flight_nos": "QR 571 + QR 41",
     "sites": [
      {
       "name": "Qatar Airways (airline)",
-      "price": 33605
+      "price": 38792
      },
      {
       "name": "Gotogate",
-      "price": 36501
+      "price": 41961
      }
     ]
    },
    {
-    "price": 33605,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 1235,
-    "departs": "16:20",
-    "arrives": "21:10",
-    "next_day": true,
-    "journey_min": 1940,
-    "flight_nos": "6E 1345 + QR 37",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 33605
-     },
-     {
-      "name": "Gotogate",
-      "price": 36501
-     }
-    ]
-   },
-   {
-    "price": 40457,
+    "price": 40419,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -2790,10 +2785,55 @@
     "arrives": "07:55",
     "next_day": true,
     "journey_min": 830,
-    "flight_nos": "GF 135 + GF 19"
+    "flight_nos": "GF 135 + GF 19",
+    "sites": [
+     {
+      "name": "Gulf Air (airline)",
+      "price": 40419
+     },
+     {
+      "name": "Wego",
+      "price": 40419
+     },
+     {
+      "name": "Travomint",
+      "price": 42480
+     }
+    ]
    },
    {
-    "price": 43168,
+    "price": 42988,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 415,
+    "departs": "16:20",
+    "arrives": "07:30",
+    "next_day": true,
+    "journey_min": 1120,
+    "flight_nos": "6E 1345 + QR 41",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 42988
+     },
+     {
+      "name": "FlightsMojo",
+      "price": 44316
+     },
+     {
+      "name": "Wego",
+      "price": 44316
+     },
+     {
+      "name": "Gotogate",
+      "price": 46388
+     }
+    ]
+   },
+   {
+    "price": 43123,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -2804,6 +2844,19 @@
     "next_day": false,
     "journey_min": 775,
     "flight_nos": "EY 213 + EY 33"
+   },
+   {
+    "price": 45149,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 810,
+    "departs": "16:20",
+    "arrives": "14:00",
+    "next_day": true,
+    "journey_min": 1510,
+    "flight_nos": "EY 215 + EY 35"
    },
    {
     "price": 49359,
@@ -2819,7 +2872,7 @@
     "flight_nos": "BA 142 + VY 8058"
    },
    {
-    "price": 50381,
+    "price": 50477,
     "airline": "EgyptAir",
     "to": "CDG",
     "stops": 1,
@@ -2832,7 +2885,7 @@
     "flight_nos": "MS 974 + MS 801"
    },
    {
-    "price": 51970,
+    "price": 51933,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -2845,7 +2898,7 @@
     "flight_nos": "EK 511 + EK 75"
    },
    {
-    "price": 59485,
+    "price": 59440,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -2858,7 +2911,7 @@
     "flight_nos": "EY 219 + EY 35"
    },
    {
-    "price": 62685,
+    "price": 62605,
     "airline": "British Airways / Vueling",
     "to": "ORY",
     "stops": 1,
@@ -2897,7 +2950,7 @@
     "flight_nos": "AF 215"
    },
    {
-    "price": 86578,
+    "price": 86500,
     "airline": "Lufthansa",
     "to": "CDG",
     "stops": 1,
@@ -2945,7 +2998,7 @@
     "sites": [
      {
       "name": "Saudia (airline)",
-      "price": 39318
+      "price": 75254
      }
     ]
    },
@@ -2964,38 +3017,12 @@
     "sites": [
      {
       "name": "Saudia (airline)",
-      "price": 41880
+      "price": 34251
      }
     ]
    },
    {
-    "price": 47670,
-    "airline": "Oman Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "MCT",
-    "layover_min": 205,
-    "departs": "08:55",
-    "arrives": "19:45",
-    "next_day": false,
-    "journey_min": 860,
-    "flight_nos": "WY 242 + WY 131"
-   },
-   {
-    "price": 48026,
-    "airline": "EgyptAir",
-    "to": "CDG",
-    "stops": 1,
-    "via": "CAI",
-    "layover_min": 70,
-    "departs": "12:00",
-    "arrives": "21:05",
-    "next_day": false,
-    "journey_min": 755,
-    "flight_nos": "MS 974 + MS 801"
-   },
-   {
-    "price": 55223,
+    "price": 47093,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -3008,7 +3035,33 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 55803,
+    "price": 47664,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131"
+   },
+   {
+    "price": 48029,
+    "airline": "EgyptAir",
+    "to": "CDG",
+    "stops": 1,
+    "via": "CAI",
+    "layover_min": 70,
+    "departs": "12:00",
+    "arrives": "21:05",
+    "next_day": false,
+    "journey_min": 755,
+    "flight_nos": "MS 974 + MS 801"
+   },
+   {
+    "price": 55735,
     "airline": "LOT",
     "to": "CDG",
     "stops": 1,
@@ -3021,7 +3074,7 @@
     "flight_nos": "LO 72 + LO 335"
    },
    {
-    "price": 57458,
+    "price": 57413,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3034,7 +3087,7 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
-    "price": 59793,
+    "price": 59755,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -3047,7 +3100,7 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 60160,
+    "price": 60123,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -3086,7 +3139,7 @@
     "flight_nos": "AF 225"
    },
    {
-    "price": 96316,
+    "price": 96265,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -3127,17 +3180,226 @@
   ],
   "2027-03-29": [
    {
+    "price": 34339,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131",
+    "sites": [
+     {
+      "name": "Oman Air (airline)",
+      "price": 34339
+     },
+     {
+      "name": "Gotogate",
+      "price": 36411
+     },
+     {
+      "name": "Wego",
+      "price": 36954
+     }
+    ]
+   },
+   {
+    "price": 39621,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 1220,
+    "departs": "16:00",
+    "arrives": "19:45",
+    "next_day": true,
+    "journey_min": 1875,
+    "flight_nos": "WY 246 + WY 131",
+    "sites": [
+     {
+      "name": "Gotogate",
+      "price": 33240
+     }
+    ]
+   },
+   {
+    "price": 44136,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 515,
+    "departs": "15:55",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 1170,
+    "flight_nos": "EY 215 + EY 31",
+    "sites": [
+     {
+      "name": "Etihad (airline)",
+      "price": 44136
+     },
+     {
+      "name": "FlightsMojo",
+      "price": 44136
+     },
+     {
+      "name": "Wego",
+      "price": 44136
+     },
+     {
+      "name": "Gotogate",
+      "price": 46208
+     }
+    ]
+   },
+   {
+    "price": 44920,
+    "airline": "Azerbaijan Airlines",
+    "to": "CDG",
+    "stops": 1,
+    "via": "GYD",
+    "layover_min": 1365,
+    "departs": "05:10",
+    "arrives": "10:55",
+    "next_day": true,
+    "journey_min": 1995,
+    "flight_nos": "J2 508 + J2 133"
+   },
+   {
+    "price": 47093,
+    "airline": "Finnair",
+    "to": "CDG",
+    "stops": 1,
+    "via": "HEL",
+    "layover_min": 105,
+    "departs": "07:40",
+    "arrives": "18:15",
+    "next_day": false,
+    "journey_min": 845,
+    "flight_nos": "AY 122 + AY 1577"
+   },
+   {
+    "price": 49886,
+    "airline": "Emirates",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DXB",
+    "layover_min": 100,
+    "departs": "11:00",
+    "arrives": "20:00",
+    "next_day": false,
+    "journey_min": 750,
+    "flight_nos": "EK 511 + EK 75"
+   },
+   {
+    "price": 52305,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 110,
+    "departs": "21:50",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 815,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 55735,
+    "airline": "LOT",
+    "to": "CDG",
+    "stops": 1,
+    "via": "WAW",
+    "layover_min": 225,
+    "departs": "08:00",
+    "arrives": "18:50",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "LO 72 + LO 335"
+   },
+   {
+    "price": 56684,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 80,
+    "departs": "04:50",
+    "arrives": "14:00",
+    "next_day": false,
+    "journey_min": 760,
+    "flight_nos": "EY 219 + EY 35"
+   },
+   {
+    "price": 73889,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "13:00",
+    "arrives": "19:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 75989,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:00",
+    "arrives": "11:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 147"
+   },
+   {
+    "price": 113317,
+    "airline": "SWISS",
+    "to": "CDG",
+    "stops": 1,
+    "via": "ZRH",
+    "layover_min": 65,
+    "departs": "01:05",
+    "arrives": "08:55",
+    "next_day": false,
+    "journey_min": 680,
+    "flight_nos": "LX 147 + LX 632"
+   },
+   {
+    "price": 123999,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "00:50",
+    "arrives": "06:25",
+    "next_day": false,
+    "journey_min": 545,
+    "flight_nos": "AF 283"
+   }
+  ],
+  "2027-03-30": [
+   {
     "price": 34251,
     "airline": "Saudia",
     "to": "CDG",
     "stops": 1,
-    "via": "JED",
-    "layover_min": 585,
-    "departs": "20:05",
-    "arrives": "13:55",
+    "via": "RUH",
+    "layover_min": 315,
+    "departs": "18:30",
+    "arrives": "07:35",
     "next_day": true,
-    "journey_min": 1280,
-    "flight_nos": "SV 759 + SV 127",
+    "journey_min": 995,
+    "flight_nos": "SV 761 + SV 143",
     "sites": [
      {
       "name": "Saudia (airline)",
@@ -3173,191 +3435,7 @@
     ]
    },
    {
-    "price": 39633,
-    "airline": "Oman Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "MCT",
-    "layover_min": 1220,
-    "departs": "16:00",
-    "arrives": "19:45",
-    "next_day": true,
-    "journey_min": 1875,
-    "flight_nos": "WY 246 + WY 131",
-    "sites": [
-     {
-      "name": "Gotogate",
-      "price": 33240
-     }
-    ]
-   },
-   {
-    "price": 44181,
-    "airline": "Etihad",
-    "to": "CDG",
-    "stops": 1,
-    "via": "AUH",
-    "layover_min": 515,
-    "departs": "15:55",
-    "arrives": "07:55",
-    "next_day": true,
-    "journey_min": 1170,
-    "flight_nos": "EY 215 + EY 31"
-   },
-   {
-    "price": 47101,
-    "airline": "Finnair",
-    "to": "CDG",
-    "stops": 1,
-    "via": "HEL",
-    "layover_min": 105,
-    "departs": "07:40",
-    "arrives": "18:15",
-    "next_day": false,
-    "journey_min": 845,
-    "flight_nos": "AY 122 + AY 1577"
-   },
-   {
-    "price": 49923,
-    "airline": "Emirates",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DXB",
-    "layover_min": 100,
-    "departs": "11:00",
-    "arrives": "20:00",
-    "next_day": false,
-    "journey_min": 750,
-    "flight_nos": "EK 511 + EK 75"
-   },
-   {
-    "price": 52343,
-    "airline": "Gulf Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "BAH",
-    "layover_min": 110,
-    "departs": "21:50",
-    "arrives": "07:55",
-    "next_day": true,
-    "journey_min": 815,
-    "flight_nos": "GF 135 + GF 19"
-   },
-   {
-    "price": 56729,
-    "airline": "Etihad",
-    "to": "CDG",
-    "stops": 1,
-    "via": "AUH",
-    "layover_min": 80,
-    "departs": "04:50",
-    "arrives": "14:00",
-    "next_day": false,
-    "journey_min": 760,
-    "flight_nos": "EY 219 + EY 35"
-   },
-   {
-    "price": 73924,
-    "airline": "Air India",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "13:00",
-    "arrives": "19:15",
-    "next_day": false,
-    "journey_min": 585,
-    "flight_nos": "AI 143"
-   },
-   {
-    "price": 76024,
-    "airline": "Air India",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "05:00",
-    "arrives": "11:15",
-    "next_day": false,
-    "journey_min": 585,
-    "flight_nos": "AI 147"
-   },
-   {
-    "price": 113386,
-    "airline": "SWISS",
-    "to": "CDG",
-    "stops": 1,
-    "via": "ZRH",
-    "layover_min": 65,
-    "departs": "01:05",
-    "arrives": "08:55",
-    "next_day": false,
-    "journey_min": 680,
-    "flight_nos": "LX 147 + LX 632"
-   },
-   {
-    "price": 124046,
-    "airline": "Air France",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "00:50",
-    "arrives": "06:25",
-    "next_day": false,
-    "journey_min": 545,
-    "flight_nos": "AF 283"
-   }
-  ],
-  "2027-03-30": [
-   {
-    "price": 34251,
-    "airline": "Saudia",
-    "to": "CDG",
-    "stops": 1,
-    "via": "RUH",
-    "layover_min": 315,
-    "departs": "18:30",
-    "arrives": "07:35",
-    "next_day": true,
-    "journey_min": 995,
-    "flight_nos": "SV 761 + SV 143",
-    "sites": [
-     {
-      "name": "Saudia (airline)",
-      "price": 34251
-     }
-    ]
-   },
-   {
-    "price": 34345,
-    "airline": "Oman Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "MCT",
-    "layover_min": 205,
-    "departs": "08:55",
-    "arrives": "19:45",
-    "next_day": false,
-    "journey_min": 860,
-    "flight_nos": "WY 242 + WY 131",
-    "sites": [
-     {
-      "name": "Oman Air (airline)",
-      "price": 34339
-     },
-     {
-      "name": "Gotogate",
-      "price": 36411
-     },
-     {
-      "name": "Wego",
-      "price": 36954
-     }
-    ]
-   },
-   {
-    "price": 37892,
+    "price": 37847,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3380,7 +3458,7 @@
     ]
    },
    {
-    "price": 39003,
+    "price": 38966,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -3393,7 +3471,7 @@
     "flight_nos": "EK 511 + EK 75"
    },
    {
-    "price": 39444,
+    "price": 39406,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -3406,7 +3484,7 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -3419,7 +3497,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 44181,
+    "price": 44136,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3432,7 +3510,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 50863,
+    "price": 50795,
     "airline": "LOT",
     "to": "CDG",
     "stops": 1,
@@ -3445,7 +3523,7 @@
     "flight_nos": "LO 72 + LO 335"
    },
    {
-    "price": 73924,
+    "price": 73889,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -3458,7 +3536,7 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 76024,
+    "price": 75989,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -3471,7 +3549,7 @@
     "flight_nos": "AI 147"
    },
    {
-    "price": 88760,
+    "price": 88713,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -3484,7 +3562,7 @@
     "flight_nos": "AF 283"
    },
    {
-    "price": 462977,
+    "price": 462779,
     "airline": "SWISS",
     "to": "CDG",
     "stops": 1,
@@ -3498,25 +3576,6 @@
    }
   ],
   "2027-03-31": [
-   {
-    "price": 34251,
-    "airline": "Saudia",
-    "to": "CDG",
-    "stops": 1,
-    "via": "JED",
-    "layover_min": 585,
-    "departs": "20:05",
-    "arrives": "13:55",
-    "next_day": true,
-    "journey_min": 1280,
-    "flight_nos": "SV 759 + SV 127",
-    "sites": [
-     {
-      "name": "Saudia (airline)",
-      "price": 34251
-     }
-    ]
-   },
    {
     "price": 37847,
     "airline": "Etihad",
@@ -3549,7 +3608,7 @@
     ]
    },
    {
-    "price": 38905,
+    "price": 38860,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3580,7 +3639,7 @@
     ]
    },
    {
-    "price": 39003,
+    "price": 38966,
     "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
@@ -3590,10 +3649,37 @@
     "arrives": "20:00",
     "next_day": false,
     "journey_min": 750,
-    "flight_nos": "EK 511 + EK 75"
+    "flight_nos": "EK 511 + EK 75",
+    "sites": [
+     {
+      "name": "Emirates (airline)",
+      "price": 38966
+     },
+     {
+      "name": "Wego",
+      "price": 39806
+     },
+     {
+      "name": "Travomint",
+      "price": 41504
+     }
+    ]
    },
    {
-    "price": 40157,
+    "price": 39318,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "JED",
+    "layover_min": 1105,
+    "departs": "11:25",
+    "arrives": "13:55",
+    "next_day": true,
+    "journey_min": 1800,
+    "flight_nos": "SV 757 + SV 127"
+   },
+   {
+    "price": 40144,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -3606,7 +3692,7 @@
     "flight_nos": "WY 246 + WY 131"
    },
    {
-    "price": 41200,
+    "price": 41192,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -3619,7 +3705,7 @@
     "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 50863,
+    "price": 50795,
     "airline": "LOT",
     "to": "CDG",
     "stops": 1,
@@ -3632,7 +3718,7 @@
     "flight_nos": "LO 72 + LO 335"
    },
    {
-    "price": 55715,
+    "price": 55670,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3645,7 +3731,7 @@
     "flight_nos": "EY 217 + EY 31"
    },
    {
-    "price": 73924,
+    "price": 73889,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -3658,7 +3744,7 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 76024,
+    "price": 75989,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -3671,7 +3757,7 @@
     "flight_nos": "AI 147"
    },
    {
-    "price": 88760,
+    "price": 88713,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -3697,7 +3783,193 @@
     "flight_nos": "LX 147 + LX 632"
    }
   ],
-  "2027-04-01": [],
+  "2027-04-01": [
+   {
+    "price": 25177,
+    "airline": "Kuwait Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "KWI",
+    "layover_min": 245,
+    "departs": "02:00",
+    "arrives": "12:40",
+    "next_day": false,
+    "journey_min": 850,
+    "flight_nos": "KU 382 + KU 167",
+    "sites": [
+     {
+      "name": "Kuwait Airways (airline)",
+      "price": 25177
+     },
+     {
+      "name": "Wego",
+      "price": 25177
+     },
+     {
+      "name": "Gotogate",
+      "price": 27249
+     }
+    ]
+   },
+   {
+    "price": 27630,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 110,
+    "departs": "21:50",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 815,
+    "flight_nos": "GF 135 + GF 19",
+    "sites": [
+     {
+      "name": "Gulf Air (airline)",
+      "price": 27630
+     },
+     {
+      "name": "Wego",
+      "price": 27630
+     },
+     {
+      "name": "Travomint",
+      "price": 29051
+     }
+    ]
+   },
+   {
+    "price": 31168,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131",
+    "sites": [
+     {
+      "name": "Oman Air (airline)",
+      "price": 31168
+     },
+     {
+      "name": "Gotogate",
+      "price": 33240
+     },
+     {
+      "name": "Wego",
+      "price": 36954
+     }
+    ]
+   },
+   {
+    "price": 34251,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "RUH",
+    "layover_min": 315,
+    "departs": "18:30",
+    "arrives": "07:35",
+    "next_day": true,
+    "journey_min": 995,
+    "flight_nos": "SV 761 + SV 143"
+   },
+   {
+    "price": 44136,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 200,
+    "departs": "21:15",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 850,
+    "flight_nos": "EY 217 + EY 31"
+   },
+   {
+    "price": 47093,
+    "airline": "Finnair",
+    "to": "CDG",
+    "stops": 1,
+    "via": "HEL",
+    "layover_min": 105,
+    "departs": "07:40",
+    "arrives": "18:15",
+    "next_day": false,
+    "journey_min": 845,
+    "flight_nos": "AY 122 + AY 1577"
+   },
+   {
+    "price": 49886,
+    "airline": "Emirates",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DXB",
+    "layover_min": 100,
+    "departs": "11:00",
+    "arrives": "20:00",
+    "next_day": false,
+    "journey_min": 750,
+    "flight_nos": "EK 511 + EK 75"
+   },
+   {
+    "price": 54974,
+    "airline": "SWISS",
+    "to": "CDG",
+    "stops": 1,
+    "via": "ZRH",
+    "layover_min": 65,
+    "departs": "01:05",
+    "arrives": "08:55",
+    "next_day": false,
+    "journey_min": 680,
+    "flight_nos": "LX 147 + LX 632"
+   },
+   {
+    "price": 64702,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "13:00",
+    "arrives": "19:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 66802,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:00",
+    "arrives": "11:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 147"
+   },
+   {
+    "price": 68076,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "00:50",
+    "arrives": "06:25",
+    "next_day": false,
+    "journey_min": 545,
+    "flight_nos": "AF 283"
+   }
+  ],
   "2027-04-02": [
    {
     "price": 25177,
@@ -3746,30 +4018,30 @@
     ]
    },
    {
-    "price": 36802,
+    "price": 36765,
     "airline": "IndiGo / Qatar Airways",
     "to": "CDG",
     "stops": 1,
     "via": "DOH",
-    "layover_min": 955,
-    "departs": "21:30",
-    "arrives": "21:10",
+    "layover_min": 870,
+    "departs": "15:55",
+    "arrives": "14:25",
     "next_day": true,
-    "journey_min": 1630,
-    "flight_nos": "6E 1307 + QR 37",
+    "journey_min": 1560,
+    "flight_nos": "6E 1345 + QR 39",
     "sites": [
      {
       "name": "Qatar Airways (airline)",
-      "price": 72575
+      "price": 36765
      },
      {
       "name": "Gotogate",
-      "price": 77629
+      "price": 39934
      }
     ]
    },
    {
-    "price": 38905,
+    "price": 38860,
     "airline": "Etihad",
     "to": "CDG",
     "stops": 1,
@@ -3782,7 +4054,7 @@
     "flight_nos": "EY 219 + EY 35"
    },
    {
-    "price": 42483,
+    "price": 42477,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -3795,20 +4067,20 @@
     "flight_nos": "WY 242 + WY 131"
    },
    {
-    "price": 44181,
-    "airline": "Etihad",
+    "price": 47093,
+    "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
-    "via": "AUH",
-    "layover_min": 515,
-    "departs": "15:55",
-    "arrives": "07:55",
-    "next_day": true,
-    "journey_min": 1170,
-    "flight_nos": "EY 215 + EY 31"
+    "via": "HEL",
+    "layover_min": 105,
+    "departs": "07:40",
+    "arrives": "18:15",
+    "next_day": false,
+    "journey_min": 845,
+    "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 48019,
+    "price": 48029,
     "airline": "EgyptAir",
     "to": "CDG",
     "stops": 1,
@@ -3821,7 +4093,7 @@
     "flight_nos": "MS 974 + MS 801"
    },
    {
-    "price": 50417,
+    "price": 50379,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -3832,19 +4104,6 @@
     "next_day": true,
     "journey_min": 815,
     "flight_nos": "GF 135 + GF 19"
-   },
-   {
-    "price": 51816,
-    "airline": "Finnair",
-    "to": "CDG",
-    "stops": 1,
-    "via": "HEL",
-    "layover_min": 105,
-    "departs": "07:40",
-    "arrives": "18:15",
-    "next_day": false,
-    "journey_min": 845,
-    "flight_nos": "AY 122 + AY 1577"
    },
    {
     "price": 64702,
@@ -3873,7 +4132,7 @@
     "flight_nos": "AI 147"
    },
    {
-    "price": 74111,
+    "price": 74042,
     "airline": "SWISS",
     "to": "CDG",
     "stops": 1,
