@@ -2013,3 +2013,22 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-17T10:06:00Z,2027-03-31,33697,73924,33697,,Etihad,via AUH,12,38905,Etihad (airline)
 2026-11-17T10:06:00Z,2027-04-01,25192,64737,25192,,Kuwait Airways,via KWI,11,25192,Kuwait Airways (airline)
 2026-11-17T10:06:00Z,2027-04-02,25192,64737,25192,,Kuwait Airways,via KWI,12,25192,Kuwait Airways (airline)
+2026-11-17T11:07:00Z,2027-03-15,32684,57224,32684,49439,Etihad,via AUH,14,32684,Etihad (airline)
+2026-11-17T11:07:00Z,2027-03-16,31615,57224,31615,49439,IndiGo / Qatar Airways,via DOH,16,31615,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-17,49439,,,49439,British Airways / Vueling,via LHR,2,,
+2026-11-17T11:07:00Z,2027-03-18,49439,,,49439,British Airways / Vueling,via LHR,2,49439,British Airways (airline)
+2026-11-17T11:07:00Z,2027-03-19,31174,53480,31174,,Oman Air,via MCT,11,31174,Oman Air (airline)
+2026-11-17T11:07:00Z,2027-03-20,49439,,,49439,British Airways / Vueling,via LHR,2,49439,British Airways (airline)
+2026-11-17T11:07:00Z,2027-03-21,33253,53480,33253,70865,Oman Air,via MCT,21,33253,Gotogate
+2026-11-17T11:07:00Z,2027-03-22,31174,63403,31174,81428,Oman Air,via MCT,12,31174,Oman Air (airline)
+2026-11-17T11:07:00Z,2027-03-23,31615,64737,31615,70865,Qatar Airways,via DOH,14,31615,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-24,62685,,,62685,British Airways / Vueling,via LHR,2,62685,British Airways (airline)
+2026-11-17T11:07:00Z,2027-03-25,31615,73924,31615,,Qatar Airways,via DOH,11,31615,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-26,31615,68123,31615,62685,Qatar Airways,via DOH,15,31615,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-27,33642,73924,33642,49439,Qatar Airways,via DOH,13,33642,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-28,33253,85768,33253,,Oman Air,via MCT,15,33253,Gotogate
+2026-11-17T11:07:00Z,2027-03-29,34345,73924,34345,,Oman Air,via MCT,12,33253,Gotogate
+2026-11-17T11:07:00Z,2027-03-30,31369,73924,31369,,IndiGo / Qatar Airways,via DOH,12,31369,Qatar Airways (airline)
+2026-11-17T11:07:00Z,2027-03-31,33697,73924,33697,,Etihad,via AUH,12,33697,Etihad (airline)
+2026-11-17T11:07:00Z,2027-04-01,25192,64737,25192,,Kuwait Airways,via KWI,11,25192,Kuwait Airways (airline)
+2026-11-17T11:07:00Z,2027-04-02,25192,64737,25192,,Kuwait Airways,via KWI,12,25192,Kuwait Airways (airline)
