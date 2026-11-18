@@ -2352,3 +2352,17 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-18T10:11:00Z,2027-03-28,33240,85733,33240,,Oman Air,via MCT,18,33240,Gotogate
 2026-11-18T10:11:00Z,2027-03-31,37847,73889,37847,,Etihad,via AUH,11,37847,Etihad (airline)
 2026-11-18T10:11:00Z,2027-04-02,25177,64702,25177,,Kuwait Airways,via KWI,12,25177,Kuwait Airways (airline)
+2026-11-18T11:11:00Z,2027-03-15,32639,57189,32639,49359,Etihad,via AUH,13,32639,Etihad (airline)
+2026-11-18T11:11:00Z,2027-03-16,31578,57189,31578,49359,IndiGo / Qatar Airways,via DOH,15,31578,Qatar Airways (airline)
+2026-11-18T11:11:00Z,2027-03-19,31168,53433,31168,,Oman Air,via MCT,10,31168,Oman Air (airline)
+2026-11-18T11:11:00Z,2027-03-20,33240,64702,33240,49359,Oman Air,via MCT,14,33240,Gotogate
+2026-11-18T11:11:00Z,2027-03-21,70785,,,70785,British Airways / Vueling,via LHR,2,70785,British Airways (airline)
+2026-11-18T11:11:00Z,2027-03-22,31168,63356,31168,81348,Oman Air,via MCT,11,31168,Oman Air (airline)
+2026-11-18T11:11:00Z,2027-03-23,70785,,,70785,British Airways / Vueling,via LHR,1,70785,British Airways (airline)
+2026-11-18T11:11:00Z,2027-03-24,31578,64702,31578,,IndiGo / Qatar Airways,via DOH,14,31578,Qatar Airways (airline)
+2026-11-18T11:11:00Z,2027-03-25,62605,,,62605,British Airways / Vueling,via LHR,2,62605,British Airways (airline)
+2026-11-18T11:11:00Z,2027-03-27,49359,,,49359,British Airways / Vueling,via LHR,2,49359,British Airways (airline)
+2026-11-18T11:11:00Z,2027-03-28,33240,85733,33240,,Oman Air,via MCT,18,33240,Gotogate
+2026-11-18T11:11:00Z,2027-03-31,37847,73889,37847,,Etihad,via AUH,11,37847,Etihad (airline)
+2026-11-18T11:11:00Z,2027-04-01,25177,64702,25177,,Kuwait Airways,via KWI,11,25177,Kuwait Airways (airline)
+2026-11-18T11:11:00Z,2027-04-02,25177,64702,25177,,Kuwait Airways,via KWI,12,25177,Kuwait Airways (airline)
