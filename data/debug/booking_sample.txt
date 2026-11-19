@@ -1,4 +1,4 @@
-https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE2Ih8KA0RFTBIKMjAyNy0wMy0xNhoDQVVIKgJFWTIDMjEzIh4KA0FVSBIKMjAyNy0wMy0xNhoDQ0RHKgJFWTICMzNqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
+https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE1Ih8KA0RFTBIKMjAyNy0wMy0xNRoDQVVIKgJFWTIDMjEzIh4KA0FVSBIKMjAyNy0wMy0xNRoDQ0RHKgJFWTICMzNqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
 
 Skip to main content
 Accessibility feedback
@@ -17,7 +17,7 @@ Travel update
 Air traffic disruptions may affect flights.
 Selected flights
 Track prices
-Tue 16 Mar
+Mon 15 Mar
 10:10
  – 
 18:35
@@ -59,6 +59,9 @@ The least expensive flights for similar trips to Paris usually cost between ₹5
 ₹51,000
 ₹105,000
 Price history for these flights
+39 days ago
+32 days ago
+25 days ago
 18 days ago
 11 days ago
 4 days ago
