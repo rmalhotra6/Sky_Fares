@@ -2919,3 +2919,19 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-20T05:18:00Z,2027-03-24,62390,,,62390,British Airways / Vueling,via LHR,2,62390,British Airways (airline)
 2026-11-20T05:18:00Z,2027-03-26,32336,60099,32336,,IndiGo / Qatar Airways,via DOH,10,32336,Qatar Airways (airline)
 2026-11-20T05:18:00Z,2027-03-27,34606,73796,34606,,Qatar Airways,via DOH,12,34606,Qatar Airways (airline)
+2026-11-20T06:18:00Z,2027-03-16,49144,,,49144,British Airways / Vueling,via LHR,3,49144,British Airways (airline)
+2026-11-20T06:18:00Z,2027-03-17,49144,,,49144,British Airways / Vueling,via LHR,2,49144,British Airways (airline)
+2026-11-20T06:18:00Z,2027-03-18,32579,57096,32579,49144,IndiGo / Qatar Airways,via DOH,12,32579,Qatar Airways (airline)
+2026-11-20T06:18:00Z,2027-03-19,49144,,,49144,British Airways / Vueling,via LHR,2,49144,British Airways (airline)
+2026-11-20T06:18:00Z,2027-03-20,30631,64609,30631,49144,Oman Air,via MCT,14,30631,Gotogate
+2026-11-20T06:18:00Z,2027-03-21,30631,53305,30631,,Oman Air,via MCT,12,30631,Gotogate
+2026-11-20T06:18:00Z,2027-03-22,28579,63228,28579,81133,Oman Air,via MCT,13,28579,Oman Air (airline)
+2026-11-20T06:18:00Z,2027-03-23,29374,64609,29374,70570,Etihad,via AUH,13,29374,Etihad (airline)
+2026-11-20T06:18:00Z,2027-03-24,32519,64609,32519,,Etihad,via AUH,10,32519,Etihad (airline)
+2026-11-20T06:18:00Z,2027-03-25,62390,,,62390,British Airways / Vueling,via LHR,2,62390,British Airways (airline)
+2026-11-20T06:18:00Z,2027-03-26,62390,,,62390,British Airways / Vueling,via LHR,1,62390,British Airways (airline)
+2026-11-20T06:18:00Z,2027-03-27,34606,73796,34606,,Qatar Airways,via DOH,12,34606,Qatar Airways (airline)
+2026-11-20T06:18:00Z,2027-03-29,33198,73796,33198,,Oman Air,via MCT,14,33198,Gotogate
+2026-11-20T06:18:00Z,2027-03-30,32579,73796,32579,,IndiGo / Qatar Airways,via DOH,13,32579,Qatar Airways (airline)
+2026-11-20T06:18:00Z,2027-04-01,25140,64609,25140,,Kuwait Airways,via KWI,9,25140,Kuwait Airways (airline)
+2026-11-20T06:18:00Z,2027-04-02,25140,64609,25140,,Kuwait Airways,via KWI,10,25140,Kuwait Airways (airline)
