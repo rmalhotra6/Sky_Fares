@@ -1,4 +1,4 @@
-https://www.google.com/travel/flights/booking?tfs=CBwQAhphEgoyMDI3LTAzLTIwIh8KA0RFTBIKMjAyNy0wMy0yMBoDTEhSKgJCQTIDMTM2IiAKA0xIUhIKMjAyNy0wMy0yMBoDT1JZKgJWWTIEODA1OGoHCAESA0RFTHIHCAESA09SWUABSAFwAYIBCwj___________8BmAEC&hl=en-GB&curr=INR&gl=IN
+https://www.google.com/travel/flights/booking?tfs=CBwQAhphEgoyMDI3LTAzLTE2Ih8KA0RFTBIKMjAyNy0wMy0xNhoDTEhSKgJCQTIDMTQyIiAKA0xIUhIKMjAyNy0wMy0xNhoDT1JZKgJWWTIEODA1OGoHCAESA0RFTHIHCAESA09SWUABSAFwAYIBCwj___________8BmAEC&hl=en-GB&curr=INR&gl=IN
 
 Skip to main content
 Accessibility feedback
@@ -15,17 +15,17 @@ One-wayEconomy
 Lowest total price
 Selected flights
 Track prices
-Sat 20 Mar
-07:30
+Tue 16 Mar
+03:20
  – 
 17:45
 British Airways, Vueling
-14 hrs 45 min
+18 hrs 55 min
 DEL–ORY
 1 stop
-3 hrs 20 min LHR
-510 kg CO2e
-Avg emissions
+7 hrs 35 min LHR
+441 kg CO2e
+-9% emissions
 Booking options
 How options are ranked 
 Learn more about booking options
@@ -42,7 +42,7 @@ Standard boarding
 1st checked bag up to 23 kg free
 Continue
 Premium Economy or similar
-₹90,838
+₹128,976
 No refunds
 Ticket changes for a fee
 Seat selection for a fee
@@ -52,7 +52,7 @@ Standard boarding
 1st checked bag up to 23 kg free
 Continue
 Business or similar
-₹605,349
+₹202,385
 No refunds
 Ticket changes for a fee
 Seat selection for a fee
@@ -73,21 +73,6 @@ The least expensive flights for similar trips to Paris usually cost between ₹8
 ₹49,108 is low
 ₹82,000
 ₹230,000
-Price history for these flights
-57 day...
-50 days ago
-43 days ago
-36 days ago
-29 days ago
-22 days ago
-15 days ago
-8 days ago
-1 day ...
-₹80,000
-₹70,000
-₹60,000
-₹50,000
-₹40,000
 Language​English (United Kingdom)
 Location​India
 CurrencyINR
