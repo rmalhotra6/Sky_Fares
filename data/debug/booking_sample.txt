@@ -1,4 +1,4 @@
-https://www.google.com/travel/flights/booking?tfs=CBwQAhphEgoyMDI3LTAzLTE2Ih8KA0RFTBIKMjAyNy0wMy0xNhoDTEhSKgJCQTIDMTQyIiAKA0xIUhIKMjAyNy0wMy0xNhoDT1JZKgJWWTIEODA1OGoHCAESA0RFTHIHCAESA09SWUABSAFwAYIBCwj___________8BmAEC&hl=en-GB&curr=INR&gl=IN
+https://www.google.com/travel/flights/booking?tfs=CBwQAhphEgoyMDI3LTAzLTE1Ih8KA0RFTBIKMjAyNy0wMy0xNRoDTEhSKgJCQTIDMTQyIiAKA0xIUhIKMjAyNy0wMy0xNRoDT1JZKgJWWTIEODA1OGoHCAESA0RFTHIHCAESA09SWUABSAFwAYIBCwj___________8BmAEC&hl=en-GB&curr=INR&gl=IN
 
 Skip to main content
 Accessibility feedback
@@ -15,7 +15,7 @@ One-wayEconomy
 Lowest total price
 Selected flights
 Track prices
-Tue 16 Mar
+Mon 15 Mar
 03:20
  – 
 17:45
@@ -42,7 +42,7 @@ Standard boarding
 1st checked bag up to 23 kg free
 Continue
 Premium Economy or similar
-₹128,976
+₹90,838
 No refunds
 Ticket changes for a fee
 Seat selection for a fee
