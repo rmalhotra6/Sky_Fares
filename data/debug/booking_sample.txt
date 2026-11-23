@@ -1,4 +1,4 @@
-https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE1Ih8KA0RFTBIKMjAyNy0wMy0xNRoDQVVIKgJFWTIDMjEzIh4KA0FVSBIKMjAyNy0wMy0xNRoDQ0RHKgJFWTICMzNqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
+https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE1Ih8KA0RFTBIKMjAyNy0wMy0xNRoDQVVIKgJFWTIDMjE1Ih4KA0FVSBIKMjAyNy0wMy0xNhoDQ0RHKgJFWTICMzNqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
 
 Skip to main content
 Accessibility feedback
@@ -18,16 +18,16 @@ Air traffic disruptions may affect flights.
 Selected flights
 Track prices
 Mon 15 Mar
-10:10
+16:20
  – 
-18:35
+18:35+1
 Etihad
-12 hrs 55 min
+30 hrs 45 min
 DEL–CDG
 1 stop
-1 hr 25 min AUH
-528 kg CO2e
-+8% emissions
+19 hrs 15 min AUH
+494 kg CO2e
+Avg emissions
 1 free carry-on
 No checked bags
 Fare non-refundable, taxes may be refundableNo ticket changes
@@ -36,14 +36,6 @@ Booking options
 How options are ranked 
 Learn more about booking options
 Book with EtihadAirline
-₹32,501
-Continue
-View options
-Book with FlightsMojo
-₹32,501
-Continue
-View options
-Book with wego
 ₹32,501
 Continue
 View options
@@ -59,17 +51,14 @@ The least expensive flights for similar trips to Paris usually cost between ₹5
 ₹51,000
 ₹105,000
 Price history for these flights
-43 days a...
-36 days ago
-29 days ago
 22 days ago
 15 days ago
 8 days ago
 1 day ago
+₹70,000
+₹60,000
 ₹50,000
-₹45,000
 ₹40,000
-₹35,000
 ₹30,000
 Language​English (United Kingdom)
 Location​India
