@@ -3911,3 +3911,5 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-23T02:28:00Z,2027-03-31,30007,71100,30007,,IndiGo / Qatar Airways,via DOH,13,37709,Etihad (airline)
 2026-11-23T02:28:00Z,2027-04-01,25130,62013,25130,,Kuwait Airways,via KWI,10,25130,Kuwait Airways (airline)
 2026-11-23T02:28:00Z,2027-04-02,25130,62013,25130,,Kuwait Airways,via KWI,10,25130,Kuwait Airways (airline)
+2026-11-23T03:29:00Z,2027-03-23,28547,62013,28547,70534,Etihad,via AUH,13,30251,Qatar Airways (airline)
+2026-11-23T03:29:00Z,2027-03-24,30251,62013,30251,,IndiGo / Qatar Airways,via DOH,11,30251,Qatar Airways (airline)
