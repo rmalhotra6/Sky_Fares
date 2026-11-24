@@ -4469,3 +4469,19 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-24T16:34:00Z,2027-03-28,32215,83737,32215,,IndiGo / Qatar Airways,via DOH,14,32215,Qatar Airways (airline)
 2026-11-24T16:34:00Z,2027-03-31,29469,82757,29469,,Qatar Airways,via DOH,13,29469,Qatar Airways (airline)
 2026-11-24T16:34:00Z,2027-04-02,25106,71039,25106,,Kuwait Airways,via KWI,12,25106,Kuwait Airways (airline)
+2026-11-24T17:35:00Z,2027-03-15,34435,61952,34435,48965,Oman Air,via MCT,14,34435,Oman Air (airline)
+2026-11-24T17:35:00Z,2027-03-16,27820,61952,27820,48965,Gulf Air,via BAH,14,27820,Travomint
+2026-11-24T17:35:00Z,2027-03-17,27820,61952,27820,48965,Gulf Air,via BAH,15,27820,Travomint
+2026-11-24T17:35:00Z,2027-03-18,48965,,,48965,British Airways / Vueling,via LHR,2,48965,British Airways (airline)
+2026-11-24T17:35:00Z,2027-03-19,28565,53203,28565,48965,Oman Air,via MCT,13,28565,Oman Air (airline)
+2026-11-24T17:35:00Z,2027-03-20,28883,71039,28883,,Gulf Air,via BAH,11,28883,Travomint
+2026-11-24T17:35:00Z,2027-03-21,80954,,,80954,British Airways / Vueling,via LHR,2,80954,British Airways (airline)
+2026-11-24T17:35:00Z,2027-03-22,27820,63598,27820,,Gulf Air,via BAH,12,27820,Travomint
+2026-11-24T17:35:00Z,2027-03-23,27820,71039,27820,,Gulf Air,via BAH,11,27820,Travomint
+2026-11-24T17:35:00Z,2027-03-24,62211,,,62211,British Airways / Vueling,via LHR,2,62211,British Airways (airline)
+2026-11-24T17:35:00Z,2027-03-25,27820,82757,27820,62211,Gulf Air,via BAH,13,27820,Travomint
+2026-11-24T17:35:00Z,2027-03-26,29469,59997,29469,62211,Qatar Airways,via DOH,12,29469,Qatar Airways (airline)
+2026-11-24T17:35:00Z,2027-03-27,31495,82757,31495,,Qatar Airways,via DOH,11,31495,Qatar Airways (airline)
+2026-11-24T17:35:00Z,2027-03-28,32215,83737,32215,,IndiGo / Qatar Airways,via DOH,14,32215,Qatar Airways (airline)
+2026-11-24T17:35:00Z,2027-04-01,25106,67846,25106,,Kuwait Airways,via KWI,12,25106,Kuwait Airways (airline)
+2026-11-24T17:35:00Z,2027-04-02,25106,71039,25106,,Kuwait Airways,via KWI,12,25106,Kuwait Airways (airline)
