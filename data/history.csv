@@ -4502,3 +4502,18 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-24T19:35:00Z,2027-03-29,30175,82746,30175,,IndiGo / Qatar Airways,via DOH,12,30175,Qatar Airways (airline)
 2026-11-24T19:35:00Z,2027-03-31,29456,82746,29456,,Qatar Airways,via DOH,12,29456,Qatar Airways (airline)
 2026-11-24T19:35:00Z,2027-04-01,25103,67830,25103,,Kuwait Airways,via KWI,12,25103,Kuwait Airways (airline)
+2026-11-24T20:35:00Z,2027-03-15,34432,61941,34432,48938,Oman Air,via MCT,14,34432,Oman Air (airline)
+2026-11-24T20:35:00Z,2027-03-16,27807,61941,27807,48938,Gulf Air,via BAH,14,27820,Travomint
+2026-11-24T20:35:00Z,2027-03-17,27807,61941,27807,,Gulf Air,via BAH,13,27820,Travomint
+2026-11-24T20:35:00Z,2027-03-18,27807,61941,27807,48938,Gulf Air,via BAH,15,27820,Travomint
+2026-11-24T20:35:00Z,2027-03-19,28562,53187,28562,48938,Oman Air,via MCT,13,28562,Oman Air (airline)
+2026-11-24T20:35:00Z,2027-03-20,28871,71028,28871,,Gulf Air,via BAH,11,28883,Travomint
+2026-11-24T20:35:00Z,2027-03-21,31482,53187,31482,,Qatar Airways,via DOH,11,31482,Qatar Airways (airline)
+2026-11-24T20:35:00Z,2027-03-22,27807,63582,27807,,Gulf Air,via BAH,11,27820,Travomint
+2026-11-24T20:35:00Z,2027-03-23,70364,,,70364,British Airways / Vueling,via LHR,1,70364,British Airways (airline)
+2026-11-24T20:35:00Z,2027-03-26,29456,59981,29456,,Qatar Airways,via DOH,11,29456,Qatar Airways (airline)
+2026-11-24T20:35:00Z,2027-03-28,32202,83039,32202,,IndiGo / Qatar Airways,via DOH,14,32202,Qatar Airways (airline)
+2026-11-24T20:35:00Z,2027-03-30,30175,82746,30175,,IndiGo / Qatar Airways,via DOH,13,30175,Qatar Airways (airline)
+2026-11-24T20:35:00Z,2027-03-31,30175,82746,30175,,IndiGo / Qatar Airways,via DOH,12,30175,Qatar Airways (airline)
+2026-11-24T20:35:00Z,2027-04-01,25103,67830,25103,,Kuwait Airways,via KWI,12,25103,Kuwait Airways (airline)
+2026-11-24T20:35:00Z,2027-04-02,25103,71028,25103,,Kuwait Airways,via KWI,12,25103,Kuwait Airways (airline)
