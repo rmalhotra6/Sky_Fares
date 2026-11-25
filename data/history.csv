@@ -4850,3 +4850,19 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-25T19:39:00Z,2027-03-30,30168,82739,30168,,IndiGo / Qatar Airways,via DOH,12,30168,Qatar Airways (airline)
 2026-11-25T19:39:00Z,2027-03-31,30168,82739,30168,,IndiGo / Qatar Airways,via DOH,12,30168,Qatar Airways (airline)
 2026-11-25T19:39:00Z,2027-04-02,25098,71021,25098,,Kuwait Airways,via KWI,12,25098,Kuwait Airways (airline)
+2026-11-25T20:39:00Z,2027-03-15,48925,,,48925,British Airways / Vueling,via LHR,3,48925,British Airways (airline)
+2026-11-25T20:39:00Z,2027-03-16,27800,71021,27800,48925,Gulf Air,via BAH,14,27807,Travomint
+2026-11-25T20:39:00Z,2027-03-17,48925,,,48925,British Airways / Vueling,via LHR,2,48925,British Airways (airline)
+2026-11-25T20:39:00Z,2027-03-18,48925,,,48925,British Airways / Vueling,via LHR,2,48925,British Airways (airline)
+2026-11-25T20:39:00Z,2027-03-19,30168,61934,30168,,IndiGo / Qatar Airways,via DOH,12,30168,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-03-21,31475,55458,31475,,Qatar Airways,via DOH,14,31475,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-03-22,27800,55458,27800,,Gulf Air,via BAH,12,27807,Travomint
+2026-11-25T20:39:00Z,2027-03-23,62171,,,62171,British Airways / Vueling,via LHR,2,62171,British Airways (airline)
+2026-11-25T20:39:00Z,2027-03-24,30168,71021,30168,62171,IndiGo / Qatar Airways,via DOH,14,30168,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-03-25,27800,82739,27800,62171,Gulf Air,via BAH,14,27807,Travomint
+2026-11-25T20:39:00Z,2027-03-26,29449,70105,29449,62171,Qatar Airways,via DOH,13,30168,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-03-27,31281,82739,31281,48925,Etihad,via AUH,13,31281,Etihad (airline)
+2026-11-25T20:39:00Z,2027-03-29,30168,82739,30168,,IndiGo / Qatar Airways,via DOH,12,30168,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-03-31,30168,82739,30168,,IndiGo / Qatar Airways,via DOH,12,30168,Qatar Airways (airline)
+2026-11-25T20:39:00Z,2027-04-01,25098,70105,25098,,Kuwait Airways,via KWI,12,25784,Travomint
+2026-11-25T20:39:00Z,2027-04-02,25098,71021,25098,,Kuwait Airways,via KWI,12,25098,Kuwait Airways (airline)
