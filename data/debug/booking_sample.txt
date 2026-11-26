@@ -1,4 +1,4 @@
-https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE2Ih8KA0RFTBIKMjAyNy0wMy0xNhoDQkFIKgJHRjIDMTMxIh4KA0JBSBIKMjAyNy0wMy0xNxoDQ0RHKgJHRjICMTlqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
+https://www.google.com/travel/flights/booking?tfs=CBwQAhpfEgoyMDI3LTAzLTE3Ih8KA0RFTBIKMjAyNy0wMy0xNxoDQkFIKgJHRjIDMTMxIh4KA0JBSBIKMjAyNy0wMy0xOBoDQ0RHKgJHRjICMTlqBwgBEgNERUxyBwgBEgNDREdAAUgBcAGCAQsI____________AZgBAg&hl=en-GB&curr=INR&gl=IN
 
 Skip to main content
 Accessibility feedback
@@ -17,7 +17,7 @@ Travel update
 Air traffic disruptions may affect flights.
 Selected flights
 Track prices
-Tue 16 Mar
+Wed 17 Mar
 05:40
  – 
 06:45+1
