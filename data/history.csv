@@ -5445,3 +5445,14 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-27T14:46:00Z,2027-03-26,62014,,,62014,British Airways / Vueling,via LHR,1,62014,British Airways (airline)
 2026-11-27T14:46:00Z,2027-03-27,48768,,,48768,British Airways / Vueling,via LHR,1,48768,British Airways (airline)
 2026-11-27T14:46:00Z,2027-03-31,30097,82669,30097,,IndiGo / Qatar Airways,via DOH,12,38529,Etihad (airline)
+2026-11-27T15:46:00Z,2027-03-17,27720,58924,27720,,Gulf Air,via BAH,12,27720,Travomint
+2026-11-27T15:46:00Z,2027-03-18,48768,,,48768,British Airways / Vueling,via LHR,2,48768,British Airways (airline)
+2026-11-27T15:46:00Z,2027-03-20,30569,68011,30569,48768,Oman Air,via MCT,15,30569,Gotogate
+2026-11-27T15:46:00Z,2027-03-21,80757,,,80757,British Airways / Vueling,via LHR,1,80757,British Airways (airline)
+2026-11-27T15:46:00Z,2027-03-22,27720,55361,27720,,Gulf Air,via BAH,12,30097,Qatar Airways (airline)
+2026-11-27T15:46:00Z,2027-03-23,27720,68011,27720,62014,Gulf Air,via BAH,12,27720,Travomint
+2026-11-27T15:46:00Z,2027-03-24,30097,68011,30097,48768,IndiGo / Qatar Airways,via DOH,14,33136,Gotogate
+2026-11-27T15:46:00Z,2027-03-27,48768,,,48768,British Airways / Vueling,via LHR,1,48768,British Airways (airline)
+2026-11-27T15:46:00Z,2027-03-29,30746,82669,30746,,Gulf Air,via BAH,12,30746,Travomint
+2026-11-27T15:46:00Z,2027-03-30,30746,82669,30746,,Gulf Air,via BAH,12,30746,Travomint
+2026-11-27T15:46:00Z,2027-04-02,25069,70008,25069,,Kuwait Airways,via KWI,12,25069,Kuwait Airways (airline)

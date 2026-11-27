@@ -1,8 +1,8 @@
 {
- "scraped_at": "2026-11-27T14:46:00Z",
+ "scraped_at": "2026-11-27T15:46:00Z",
  "searches_ok": 38,
  "searches_failed": 0,
- "booking_status": "14 of 19 flights had booking-site prices",
+ "booking_status": "23 of 28 flights had booking-site prices",
  "watched_sites": [
   "MakeMyTrip",
   "Goibibo",
@@ -14,174 +14,81 @@
  ],
  "currency": "INR",
  "by_site": {
-  "British Airways (airline)": {
-   "price": 48768,
-   "date": "2027-03-15",
-   "airline": "British Airways / Vueling",
-   "route": "via LHR",
-   "departs": "03:20"
-  },
-  "Wego": {
-   "price": 32800,
-   "date": "2027-03-19",
-   "airline": "Gulf Air",
-   "route": "via BAH",
-   "departs": "21:35"
-  },
   "Travomint": {
    "price": 27720,
-   "date": "2027-03-18",
+   "date": "2027-03-17",
    "airline": "Gulf Air",
    "route": "via BAH",
    "departs": "05:40"
   },
   "Qatar Airways (airline)": {
-   "price": 30097,
+   "price": 29378,
+   "date": "2027-03-23",
+   "airline": "Qatar Airways",
+   "route": "via DOH",
+   "departs": "09:55"
+  },
+  "Gotogate": {
+   "price": 27094,
+   "date": "2027-04-02",
+   "airline": "Kuwait Airways",
+   "route": "via KWI",
+   "departs": "02:00"
+  },
+  "British Airways (airline)": {
+   "price": 48768,
    "date": "2027-03-18",
+   "airline": "British Airways / Vueling",
+   "route": "via LHR",
+   "departs": "07:30"
+  },
+  "Wego": {
+   "price": 25069,
+   "date": "2027-04-02",
+   "airline": "Kuwait Airways",
+   "route": "via KWI",
+   "departs": "02:00"
+  },
+  "FlightsMojo": {
+   "price": 41978,
+   "date": "2027-03-24",
    "airline": "IndiGo / Qatar Airways",
    "route": "via DOH",
    "departs": "16:20"
   },
-  "Gotogate": {
-   "price": 30569,
-   "date": "2027-03-18",
-   "airline": "Oman Air",
-   "route": "via MCT",
-   "departs": "15:50"
-  },
   "Oman Air (airline)": {
-   "price": 31237,
-   "date": "2027-03-19",
+   "price": 38157,
+   "date": "2027-03-29",
    "airline": "Oman Air",
    "route": "via MCT",
-   "departs": "09:50"
-  },
-  "Gulf Air (airline)": {
-   "price": 32800,
-   "date": "2027-03-19",
-   "airline": "Gulf Air",
-   "route": "via BAH",
-   "departs": "21:35"
+   "departs": "08:55"
   },
   "Etihad (airline)": {
-   "price": 38529,
-   "date": "2027-03-31",
+   "price": 37516,
+   "date": "2027-03-30",
    "airline": "Etihad",
    "route": "via AUH",
-   "departs": "04:50"
+   "departs": "09:25"
   },
-  "FlightsMojo": {
-   "price": 38529,
-   "date": "2027-03-31",
-   "airline": "Etihad",
-   "route": "via AUH",
-   "departs": "04:50"
+  "Emirates (airline)": {
+   "price": 38698,
+   "date": "2027-03-30",
+   "airline": "Emirates",
+   "route": "via DXB",
+   "departs": "11:00"
+  },
+  "Kuwait Airways (airline)": {
+   "price": 25069,
+   "date": "2027-04-02",
+   "airline": "Kuwait Airways",
+   "route": "via KWI",
+   "departs": "02:00"
   }
  },
  "options": {
-  "2027-03-15": [
-   {
-    "price": 48768,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 455,
-    "departs": "03:20",
-    "arrives": "17:45",
-    "next_day": false,
-    "journey_min": 1135,
-    "flight_nos": "BA 142 + VY 8058",
-    "sites": [
-     {
-      "name": "British Airways (airline)",
-      "price": 48768
-     },
-     {
-      "name": "Wego",
-      "price": 50191
-     }
-    ]
-   },
-   {
-    "price": 50191,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 1440,
-    "departs": "10:50",
-    "arrives": "17:45",
-    "next_day": true,
-    "journey_min": 2125,
-    "flight_nos": "BA 256 + VY 8058",
-    "sites": []
-   },
-   {
-    "price": 70194,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 200,
-    "departs": "07:30",
-    "arrives": "17:45",
-    "next_day": false,
-    "journey_min": 885,
-    "flight_nos": "BA 136 + VY 8058",
-    "sites": [
-     {
-      "name": "British Airways (airline)",
-      "price": 70194
-     },
-     {
-      "name": "Wego",
-      "price": 71616
-     }
-    ]
-   }
-  ],
+  "2027-03-15": [],
   "2027-03-16": [],
   "2027-03-17": [
-   {
-    "price": 48768,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 200,
-    "departs": "07:30",
-    "arrives": "17:45",
-    "next_day": false,
-    "journey_min": 885,
-    "flight_nos": "BA 136 + VY 8058",
-    "sites": [
-     {
-      "name": "British Airways (airline)",
-      "price": 48768
-     },
-     {
-      "name": "Wego",
-      "price": 50191
-     }
-    ]
-   },
-   {
-    "price": 50191,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 1440,
-    "departs": "10:50",
-    "arrives": "17:45",
-    "next_day": true,
-    "journey_min": 2125,
-    "flight_nos": "BA 256 + VY 8058",
-    "sites": []
-   }
-  ],
-  "2027-03-18": [
    {
     "price": 27720,
     "airline": "Gulf Air",
@@ -225,6 +132,175 @@
     ]
    },
    {
+    "price": 30097,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 945,
+    "departs": "21:40",
+    "arrives": "20:30",
+    "next_day": true,
+    "journey_min": 1640,
+    "flight_nos": "6E 1307 + QR 37",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 30097
+     },
+     {
+      "name": "Gotogate",
+      "price": 32122
+     }
+    ]
+   },
+   {
+    "price": 30569,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 1245,
+    "departs": "15:50",
+    "arrives": "19:35",
+    "next_day": true,
+    "journey_min": 1935,
+    "flight_nos": "WY 246 + WY 131"
+   },
+   {
+    "price": 39131,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 85,
+    "departs": "21:35",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 820,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 42133,
+    "airline": "Turkish Airlines",
+    "to": "CDG",
+    "stops": 1,
+    "via": "IST",
+    "layover_min": 240,
+    "departs": "06:55",
+    "arrives": "17:15",
+    "next_day": false,
+    "journey_min": 890,
+    "flight_nos": "TK 717 + TK 1827"
+   },
+   {
+    "price": 42792,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 85,
+    "departs": "10:10",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 775,
+    "flight_nos": "EY 213 + EY 33"
+   },
+   {
+    "price": 58924,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "12:40",
+    "arrives": "19:05",
+    "next_day": false,
+    "journey_min": 655,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 69021,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "01:25",
+    "arrives": "06:40",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AF 225"
+   },
+   {
+    "price": 74765,
+    "airline": "Lufthansa",
+    "to": "CDG",
+    "stops": 1,
+    "via": "FRA",
+    "layover_min": 70,
+    "departs": "03:35",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 675,
+    "flight_nos": "LH 761 + LH 1044"
+   },
+   {
+    "price": 75180,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:10",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 580,
+    "flight_nos": "AF 215"
+   }
+  ],
+  "2027-03-18": [
+   {
+    "price": 48768,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 200,
+    "departs": "07:30",
+    "arrives": "17:45",
+    "next_day": false,
+    "journey_min": 885,
+    "flight_nos": "BA 136 + VY 8058",
+    "sites": [
+     {
+      "name": "British Airways (airline)",
+      "price": 48768
+     },
+     {
+      "name": "Wego",
+      "price": 50191
+     }
+    ]
+   },
+   {
+    "price": 50191,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 1435,
+    "departs": "10:50",
+    "arrives": "17:45",
+    "next_day": true,
+    "journey_min": 2125,
+    "flight_nos": "BA 256 + VY 8058",
+    "sites": []
+   }
+  ],
+  "2027-03-19": [],
+  "2027-03-20": [
+   {
     "price": 30569,
     "airline": "Oman Air",
     "to": "CDG",
@@ -244,7 +320,40 @@
     ]
    },
    {
-    "price": 32800,
+    "price": 32124,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 840,
+    "departs": "16:20",
+    "arrives": "13:15",
+    "next_day": true,
+    "journey_min": 1525,
+    "flight_nos": "6E 1345 + QR 39",
+    "sites": []
+   },
+   {
+    "price": 35504,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 1040,
+    "departs": "05:40",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 1775,
+    "flight_nos": "GF 131 + GF 19",
+    "sites": [
+     {
+      "name": "Travomint",
+      "price": 35504
+     }
+    ]
+   },
+   {
+    "price": 40144,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -255,45 +364,6 @@
     "next_day": true,
     "journey_min": 820,
     "flight_nos": "GF 135 + GF 19"
-   },
-   {
-    "price": 38157,
-    "airline": "Oman Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "MCT",
-    "layover_min": 165,
-    "departs": "09:50",
-    "arrives": "19:35",
-    "next_day": false,
-    "journey_min": 855,
-    "flight_nos": "WY 242 + WY 131"
-   },
-   {
-    "price": 41137,
-    "airline": "Finnair",
-    "to": "CDG",
-    "stops": 1,
-    "via": "HEL",
-    "layover_min": 115,
-    "departs": "07:50",
-    "arrives": "18:15",
-    "next_day": false,
-    "journey_min": 895,
-    "flight_nos": "AY 122 + AY 1577"
-   },
-   {
-    "price": 42133,
-    "airline": "Turkish Airlines",
-    "to": "CDG",
-    "stops": 1,
-    "via": "IST",
-    "layover_min": 75,
-    "departs": "06:55",
-    "arrives": "14:30",
-    "next_day": false,
-    "journey_min": 725,
-    "flight_nos": "TK 717 + TK 1825"
    },
    {
     "price": 42792,
@@ -309,6 +379,32 @@
     "flight_nos": "EY 213 + EY 33"
    },
    {
+    "price": 43945,
+    "airline": "ITA",
+    "to": "CDG",
+    "stops": 1,
+    "via": "FCO",
+    "layover_min": 225,
+    "departs": "06:55",
+    "arrives": "17:25",
+    "next_day": false,
+    "journey_min": 900,
+    "flight_nos": "AZ 767 + AZ 324"
+   },
+   {
+    "price": 44159,
+    "airline": "Turkish Airlines",
+    "to": "CDG",
+    "stops": 1,
+    "via": "IST",
+    "layover_min": 240,
+    "departs": "06:55",
+    "arrives": "17:15",
+    "next_day": false,
+    "journey_min": 890,
+    "flight_nos": "TK 717 + TK 1827"
+   },
+   {
     "price": 44818,
     "airline": "Etihad",
     "to": "CDG",
@@ -322,7 +418,33 @@
     "flight_nos": "EY 219 + EY 35"
    },
    {
-    "price": 58924,
+    "price": 47038,
+    "airline": "Finnair",
+    "to": "CDG",
+    "stops": 1,
+    "via": "HEL",
+    "layover_min": 115,
+    "departs": "07:50",
+    "arrives": "18:15",
+    "next_day": false,
+    "journey_min": 895,
+    "flight_nos": "AY 122 + AY 1577"
+   },
+   {
+    "price": 48768,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 200,
+    "departs": "07:30",
+    "arrives": "17:45",
+    "next_day": false,
+    "journey_min": 885,
+    "flight_nos": "BA 136 + VY 8058"
+   },
+   {
+    "price": 68011,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -335,7 +457,189 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 61745,
+    "price": 85166,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 1455,
+    "departs": "10:50",
+    "arrives": "18:00",
+    "next_day": true,
+    "journey_min": 2140,
+    "flight_nos": "BA 256 + VY 8058"
+   },
+   {
+    "price": 85985,
+    "airline": "Lufthansa",
+    "to": "CDG",
+    "stops": 1,
+    "via": "FRA",
+    "layover_min": 70,
+    "departs": "03:35",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 675,
+    "flight_nos": "LH 761 + LH 1044"
+   },
+   {
+    "price": 86441,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:10",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 580,
+    "flight_nos": "AF 215"
+   }
+  ],
+  "2027-03-21": [
+   {
+    "price": 80757,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 215,
+    "departs": "07:30",
+    "arrives": "18:00",
+    "next_day": false,
+    "journey_min": 900,
+    "flight_nos": "BA 136 + VY 8058",
+    "sites": [
+     {
+      "name": "British Airways (airline)",
+      "price": 80757
+     },
+     {
+      "name": "Wego",
+      "price": 82179
+     }
+    ]
+   }
+  ],
+  "2027-03-22": [
+   {
+    "price": 27720,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 1040,
+    "departs": "05:40",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 1775,
+    "flight_nos": "GF 131 + GF 19",
+    "sites": []
+   },
+   {
+    "price": 28544,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 165,
+    "departs": "09:50",
+    "arrives": "19:35",
+    "next_day": false,
+    "journey_min": 855,
+    "flight_nos": "WY 242 + WY 131",
+    "sites": []
+   },
+   {
+    "price": 30097,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 1275,
+    "departs": "16:20",
+    "arrives": "20:30",
+    "next_day": true,
+    "journey_min": 1960,
+    "flight_nos": "6E 1345 + QR 37",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 30097
+     },
+     {
+      "name": "Gotogate",
+      "price": 32122
+     }
+    ]
+   },
+   {
+    "price": 32308,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 430,
+    "departs": "04:35",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 1110,
+    "flight_nos": "EY 219 + EY 33"
+   },
+   {
+    "price": 35053,
+    "airline": "Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 850,
+    "departs": "09:55",
+    "arrives": "06:35",
+    "next_day": true,
+    "journey_min": 1510,
+    "flight_nos": "QR 571 + QR 41"
+   },
+   {
+    "price": 36502,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 85,
+    "departs": "10:10",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 775,
+    "flight_nos": "EY 213 + EY 33"
+   },
+   {
+    "price": 38002,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "JED",
+    "layover_min": 505,
+    "departs": "20:05",
+    "arrives": "12:25",
+    "next_day": true,
+    "journey_min": 1250,
+    "flight_nos": "SV 759 + SV 127"
+   },
+   {
+    "price": 46968,
+    "airline": "Turkish Airlines",
+    "to": "CDG",
+    "stops": 1,
+    "via": "IST",
+    "layover_min": 75,
+    "departs": "06:55",
+    "arrives": "14:30",
+    "next_day": false,
+    "journey_min": 725,
+    "flight_nos": "TK 717 + TK 1825"
+   },
+   {
+    "price": 55361,
     "airline": "Air France",
     "to": "CDG",
     "stops": 0,
@@ -343,6 +647,190 @@
     "layover_min": null,
     "departs": "05:15",
     "arrives": "10:25",
+    "next_day": false,
+    "journey_min": 580,
+    "flight_nos": "AF 215"
+   },
+   {
+    "price": 68011,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "12:40",
+    "arrives": "19:05",
+    "next_day": false,
+    "journey_min": 655,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 74765,
+    "airline": "Lufthansa",
+    "to": "CDG",
+    "stops": 1,
+    "via": "FRA",
+    "layover_min": 70,
+    "departs": "03:35",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 675,
+    "flight_nos": "LH 761 + LH 1044"
+   }
+  ],
+  "2027-03-23": [
+   {
+    "price": 27720,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 1040,
+    "departs": "05:40",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 1775,
+    "flight_nos": "GF 131 + GF 19",
+    "sites": [
+     {
+      "name": "Travomint",
+      "price": 27720
+     }
+    ]
+   },
+   {
+    "price": 29378,
+    "airline": "Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 1685,
+    "departs": "09:55",
+    "arrives": "20:30",
+    "next_day": true,
+    "journey_min": 2345,
+    "flight_nos": "QR 571 + QR 37",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 29378
+     },
+     {
+      "name": "Gotogate",
+      "price": 32122
+     }
+    ]
+   },
+   {
+    "price": 30097,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 840,
+    "departs": "16:20",
+    "arrives": "13:15",
+    "next_day": true,
+    "journey_min": 1525,
+    "flight_nos": "6E 1345 + QR 39",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 30097
+     },
+     {
+      "name": "Gotogate",
+      "price": 32122
+     }
+    ]
+   },
+   {
+    "price": 30097,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 945,
+    "departs": "21:40",
+    "arrives": "20:30",
+    "next_day": true,
+    "journey_min": 1640,
+    "flight_nos": "6E 1307 + QR 37"
+   },
+   {
+    "price": 32308,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 430,
+    "departs": "04:35",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 1110,
+    "flight_nos": "EY 219 + EY 33"
+   },
+   {
+    "price": 36502,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 85,
+    "departs": "10:10",
+    "arrives": "18:35",
+    "next_day": false,
+    "journey_min": 775,
+    "flight_nos": "EY 213 + EY 33"
+   },
+   {
+    "price": 39131,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 85,
+    "departs": "21:35",
+    "arrives": "06:45",
+    "next_day": true,
+    "journey_min": 820,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 62014,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 200,
+    "departs": "07:30",
+    "arrives": "17:45",
+    "next_day": false,
+    "journey_min": 885,
+    "flight_nos": "BA 136 + VY 8058"
+   },
+   {
+    "price": 68011,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "12:40",
+    "arrives": "19:05",
+    "next_day": false,
+    "journey_min": 655,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 70008,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:10",
+    "arrives": "10:20",
     "next_day": false,
     "journey_min": 580,
     "flight_nos": "AF 215"
@@ -361,7 +849,7 @@
     "flight_nos": "LH 761 + LH 1044"
    }
   ],
-  "2027-03-19": [
+  "2027-03-24": [
    {
     "price": 30097,
     "airline": "IndiGo / Qatar Airways",
@@ -377,237 +865,7 @@
     "sites": []
    },
    {
-    "price": 31237,
-    "airline": "Oman Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "MCT",
-    "layover_min": 165,
-    "departs": "09:50",
-    "arrives": "19:35",
-    "next_day": false,
-    "journey_min": 855,
-    "flight_nos": "WY 242 + WY 131",
-    "sites": [
-     {
-      "name": "Oman Air (airline)",
-      "price": 31237
-     },
-     {
-      "name": "Gotogate",
-      "price": 33262
-     },
-     {
-      "name": "Wego",
-      "price": 34109
-     }
-    ]
-   },
-   {
-    "price": 32800,
-    "airline": "Gulf Air",
-    "to": "CDG",
-    "stops": 1,
-    "via": "BAH",
-    "layover_min": 85,
-    "departs": "21:35",
-    "arrives": "06:45",
-    "next_day": true,
-    "journey_min": 820,
-    "flight_nos": "GF 135 + GF 19",
-    "sites": [
-     {
-      "name": "Gulf Air (airline)",
-      "price": 32800
-     },
-     {
-      "name": "Wego",
-      "price": 32800
-     },
-     {
-      "name": "Travomint",
-      "price": 34440
-     }
-    ]
-   },
-   {
-    "price": 42792,
-    "airline": "Etihad",
-    "to": "CDG",
-    "stops": 1,
-    "via": "AUH",
-    "layover_min": 85,
-    "departs": "10:10",
-    "arrives": "18:35",
-    "next_day": false,
-    "journey_min": 775,
-    "flight_nos": "EY 213 + EY 33"
-   },
-   {
-    "price": 44818,
-    "airline": "Etihad",
-    "to": "CDG",
-    "stops": 1,
-    "via": "AUH",
-    "layover_min": 455,
-    "departs": "22:05",
-    "arrives": "12:25",
-    "next_day": true,
-    "journey_min": 1130,
-    "flight_nos": "EY 217 + EY 35"
-   },
-   {
-    "price": 47038,
-    "airline": "Finnair",
-    "to": "CDG",
-    "stops": 1,
-    "via": "HEL",
-    "layover_min": 115,
-    "departs": "07:50",
-    "arrives": "18:15",
-    "next_day": false,
-    "journey_min": 895,
-    "flight_nos": "AY 122 + AY 1577"
-   },
-   {
-    "price": 48995,
-    "airline": "Turkish Airlines",
-    "to": "CDG",
-    "stops": 1,
-    "via": "IST",
-    "layover_min": 240,
-    "departs": "06:55",
-    "arrives": "17:15",
-    "next_day": false,
-    "journey_min": 890,
-    "flight_nos": "TK 717 + TK 1827"
-   },
-   {
-    "price": 58924,
-    "airline": "Air India",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "12:40",
-    "arrives": "19:05",
-    "next_day": false,
-    "journey_min": 655,
-    "flight_nos": "AI 143"
-   },
-   {
-    "price": 62160,
-    "airline": "Air France",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "05:10",
-    "arrives": "10:20",
-    "next_day": false,
-    "journey_min": 580,
-    "flight_nos": "AF 215"
-   },
-   {
-    "price": 76350,
-    "airline": "Air France",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "01:25",
-    "arrives": "06:40",
-    "next_day": false,
-    "journey_min": 585,
-    "flight_nos": "AF 225"
-   },
-   {
-    "price": 85985,
-    "airline": "Lufthansa",
-    "to": "CDG",
-    "stops": 1,
-    "via": "FRA",
-    "layover_min": 70,
-    "departs": "03:35",
-    "arrives": "10:20",
-    "next_day": false,
-    "journey_min": 675,
-    "flight_nos": "LH 761 + LH 1044"
-   }
-  ],
-  "2027-03-20": [],
-  "2027-03-21": [
-   {
-    "price": 31404,
-    "airline": "Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 1685,
-    "departs": "09:55",
-    "arrives": "20:30",
-    "next_day": true,
-    "journey_min": 2345,
-    "flight_nos": "QR 571 + QR 37",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 31404
-     },
-     {
-      "name": "Gotogate",
-      "price": 34149
-     }
-    ]
-   },
-   {
-    "price": 32124,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 840,
-    "departs": "16:20",
-    "arrives": "13:15",
-    "next_day": true,
-    "journey_min": 1525,
-    "flight_nos": "6E 1345 + QR 39",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 32124
-     },
-     {
-      "name": "Gotogate",
-      "price": 34149
-     }
-    ]
-   },
-   {
-    "price": 32124,
-    "airline": "IndiGo / Qatar Airways",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DOH",
-    "layover_min": 945,
-    "departs": "21:40",
-    "arrives": "20:30",
-    "next_day": true,
-    "journey_min": 1640,
-    "flight_nos": "6E 1307 + QR 37",
-    "sites": [
-     {
-      "name": "Qatar Airways (airline)",
-      "price": 32124
-     },
-     {
-      "name": "Gotogate",
-      "price": 34149
-     }
-    ]
-   },
-   {
-    "price": 33262,
+    "price": 33136,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -617,7 +875,13 @@
     "arrives": "19:35",
     "next_day": true,
     "journey_min": 1935,
-    "flight_nos": "WY 246 + WY 131"
+    "flight_nos": "WY 246 + WY 131",
+    "sites": [
+     {
+      "name": "Gotogate",
+      "price": 33136
+     }
+    ]
    },
    {
     "price": 42792,
@@ -633,59 +897,59 @@
     "flight_nos": "EY 219 + EY 33"
    },
    {
-    "price": 43805,
-    "airline": "Etihad",
+    "price": 44150,
+    "airline": "Saudia",
     "to": "CDG",
     "stops": 1,
-    "via": "AUH",
-    "layover_min": 120,
-    "departs": "22:05",
-    "arrives": "06:45",
+    "via": "JED",
+    "layover_min": 505,
+    "departs": "20:05",
+    "arrives": "12:25",
     "next_day": true,
-    "journey_min": 790,
-    "flight_nos": "EY 217 + EY 31"
+    "journey_min": 1250,
+    "flight_nos": "SV 759 + SV 127"
    },
    {
-    "price": 43945,
-    "airline": "ITA",
+    "price": 47038,
+    "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
-    "via": "FCO",
-    "layover_min": 225,
-    "departs": "06:55",
-    "arrives": "17:25",
+    "via": "HEL",
+    "layover_min": 115,
+    "departs": "07:50",
+    "arrives": "18:15",
     "next_day": false,
-    "journey_min": 900,
-    "flight_nos": "AZ 767 + AZ 324"
+    "journey_min": 895,
+    "flight_nos": "AY 122 + AY 1577"
    },
    {
-    "price": 47607,
-    "airline": "Oman Air",
+    "price": 48768,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 200,
+    "departs": "07:30",
+    "arrives": "17:45",
+    "next_day": false,
+    "journey_min": 885,
+    "flight_nos": "BA 136 + VY 8058"
+   },
+   {
+    "price": 49618,
+    "airline": "Emirates",
     "to": "CDG",
     "stops": 1,
-    "via": "MCT",
-    "layover_min": 165,
-    "departs": "09:50",
-    "arrives": "19:35",
+    "via": "DXB",
+    "layover_min": 490,
+    "departs": "04:10",
+    "arrives": "19:25",
     "next_day": false,
-    "journey_min": 855,
-    "flight_nos": "WY 242 + WY 131"
+    "journey_min": 1185,
+    "flight_nos": "EK 513 + EK 75"
    },
    {
-    "price": 48995,
-    "airline": "Turkish Airlines",
-    "to": "CDG",
-    "stops": 1,
-    "via": "IST",
-    "layover_min": 75,
-    "departs": "06:55",
-    "arrives": "14:30",
-    "next_day": false,
-    "journey_min": 725,
-    "flight_nos": "TK 717 + TK 1825"
-   },
-   {
-    "price": 53044,
+    "price": 58467,
     "airline": "Gulf Air",
     "to": "CDG",
     "stops": 1,
@@ -698,33 +962,20 @@
     "flight_nos": "GF 135 + GF 19"
    },
    {
-    "price": 55361,
-    "airline": "Air France",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "05:10",
-    "arrives": "10:20",
-    "next_day": false,
-    "journey_min": 580,
-    "flight_nos": "AF 215"
+    "price": 63432,
+    "airline": "British Airways / Vueling",
+    "to": "ORY",
+    "stops": 1,
+    "via": "LHR",
+    "layover_min": 1440,
+    "departs": "10:50",
+    "arrives": "17:45",
+    "next_day": true,
+    "journey_min": 2125,
+    "flight_nos": "BA 256 + VY 8058"
    },
    {
-    "price": 70008,
-    "airline": "Air France",
-    "to": "CDG",
-    "stops": 0,
-    "via": null,
-    "layover_min": null,
-    "departs": "01:25",
-    "arrives": "06:40",
-    "next_day": false,
-    "journey_min": 585,
-    "flight_nos": "AF 225"
-   },
-   {
-    "price": 79729,
+    "price": 68011,
     "airline": "Air India",
     "to": "CDG",
     "stops": 0,
@@ -737,7 +988,33 @@
     "flight_nos": "AI 143"
    },
    {
-    "price": 85985,
+    "price": 69515,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "01:25",
+    "arrives": "06:40",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AF 225"
+   },
+   {
+    "price": 70008,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:10",
+    "arrives": "10:20",
+    "next_day": false,
+    "journey_min": 580,
+    "flight_nos": "AF 215"
+   },
+   {
+    "price": 74765,
     "airline": "Lufthansa",
     "to": "CDG",
     "stops": 1,
@@ -750,35 +1027,8 @@
     "flight_nos": "LH 761 + LH 1044"
    }
   ],
-  "2027-03-22": [],
-  "2027-03-23": [],
-  "2027-03-24": [],
   "2027-03-25": [],
-  "2027-03-26": [
-   {
-    "price": 62014,
-    "airline": "British Airways / Vueling",
-    "to": "ORY",
-    "stops": 1,
-    "via": "LHR",
-    "layover_min": 200,
-    "departs": "07:30",
-    "arrives": "17:45",
-    "next_day": false,
-    "journey_min": 885,
-    "flight_nos": "BA 136 + VY 8058",
-    "sites": [
-     {
-      "name": "British Airways (airline)",
-      "price": 62014
-     },
-     {
-      "name": "Wego",
-      "price": 63432
-     }
-    ]
-   }
-  ],
+  "2027-03-26": [],
   "2027-03-27": [
    {
     "price": 48768,
@@ -805,52 +1055,78 @@
    }
   ],
   "2027-03-28": [],
-  "2027-03-29": [],
-  "2027-03-30": [],
-  "2027-03-31": [
+  "2027-03-29": [
    {
-    "price": 30097,
+    "price": 30746,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 1125,
+    "departs": "04:55",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 1830,
+    "flight_nos": "GF 131 + GF 19",
+    "sites": [
+     {
+      "name": "Travomint",
+      "price": 30746
+     }
+    ]
+   },
+   {
+    "price": 36072,
     "airline": "IndiGo / Qatar Airways",
     "to": "CDG",
     "stops": 1,
     "via": "DOH",
-    "layover_min": 870,
+    "layover_min": 1275,
     "departs": "15:55",
-    "arrives": "14:25",
+    "arrives": "21:10",
     "next_day": true,
-    "journey_min": 1560,
-    "flight_nos": "6E 1345 + QR 39",
-    "sites": []
+    "journey_min": 1965,
+    "flight_nos": "6E 1345 + QR 37",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 36072
+     },
+     {
+      "name": "Gotogate",
+      "price": 38097
+     }
+    ]
    },
    {
-    "price": 37516,
-    "airline": "Etihad",
+    "price": 38157,
+    "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
-    "via": "AUH",
-    "layover_min": 1175,
-    "departs": "04:50",
-    "arrives": "07:55",
-    "next_day": true,
-    "journey_min": 1835,
-    "flight_nos": "EY 219 + EY 31",
-    "sites": []
-   },
-   {
-    "price": 38698,
-    "airline": "Emirates",
-    "to": "CDG",
-    "stops": 1,
-    "via": "DXB",
-    "layover_min": 100,
-    "departs": "11:00",
-    "arrives": "20:00",
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
     "next_day": false,
-    "journey_min": 750,
-    "flight_nos": "EK 511 + EK 75"
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131",
+    "sites": [
+     {
+      "name": "Oman Air (airline)",
+      "price": 38157
+     },
+     {
+      "name": "Gotogate",
+      "price": 40182
+     },
+     {
+      "name": "Wego",
+      "price": 41029
+     }
+    ]
    },
    {
-    "price": 40040,
+    "price": 39518,
     "airline": "Oman Air",
     "to": "CDG",
     "stops": 1,
@@ -863,7 +1139,20 @@
     "flight_nos": "WY 246 + WY 131"
    },
    {
-    "price": 46968,
+    "price": 52030,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 110,
+    "departs": "21:50",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 815,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 52402,
     "airline": "Turkish Airlines",
     "to": "CDG",
     "stops": 1,
@@ -876,7 +1165,169 @@
     "flight_nos": "TK 717 + TK 1827"
    },
    {
-    "price": 53060,
+    "price": 55258,
+    "airline": "LOT",
+    "to": "CDG",
+    "stops": 1,
+    "via": "WAW",
+    "layover_min": 225,
+    "departs": "08:00",
+    "arrives": "18:50",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "LO 72 + LO 335"
+   },
+   {
+    "price": 56353,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 80,
+    "departs": "04:50",
+    "arrives": "14:00",
+    "next_day": false,
+    "journey_min": 760,
+    "flight_nos": "EY 219 + EY 35"
+   },
+   {
+    "price": 82669,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "13:00",
+    "arrives": "19:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 84769,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:00",
+    "arrives": "11:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 147"
+   },
+   {
+    "price": 84823,
+    "airline": "SWISS",
+    "to": "CDG",
+    "stops": 1,
+    "via": "ZRH",
+    "layover_min": 65,
+    "departs": "01:05",
+    "arrives": "08:55",
+    "next_day": false,
+    "journey_min": 680,
+    "flight_nos": "LX 147 + LX 632"
+   },
+   {
+    "price": 105288,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "02:40",
+    "arrives": "08:20",
+    "next_day": false,
+    "journey_min": 550,
+    "flight_nos": "AF 283"
+   }
+  ],
+  "2027-03-30": [
+   {
+    "price": 30746,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 1125,
+    "departs": "04:55",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 1830,
+    "flight_nos": "GF 131 + GF 19",
+    "sites": [
+     {
+      "name": "Travomint",
+      "price": 30746
+     }
+    ]
+   },
+   {
+    "price": 37516,
+    "airline": "Etihad",
+    "to": "CDG",
+    "stops": 1,
+    "via": "AUH",
+    "layover_min": 900,
+    "departs": "09:25",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 1560,
+    "flight_nos": "EY 213 + EY 31",
+    "sites": [
+     {
+      "name": "Etihad (airline)",
+      "price": 37516
+     },
+     {
+      "name": "Gotogate",
+      "price": 39541
+     }
+    ]
+   },
+   {
+    "price": 38698,
+    "airline": "Emirates",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DXB",
+    "layover_min": 100,
+    "departs": "11:00",
+    "arrives": "20:00",
+    "next_day": false,
+    "journey_min": 750,
+    "flight_nos": "EK 511 + EK 75",
+    "sites": [
+     {
+      "name": "Emirates (airline)",
+      "price": 38698
+     },
+     {
+      "name": "Wego",
+      "price": 39538
+     },
+     {
+      "name": "Travomint",
+      "price": 41184
+     }
+    ]
+   },
+   {
+    "price": 39131,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 110,
+    "departs": "21:50",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 815,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 41137,
     "airline": "Finnair",
     "to": "CDG",
     "stops": 1,
@@ -887,6 +1338,45 @@
     "next_day": false,
     "journey_min": 845,
     "flight_nos": "AY 122 + AY 1577"
+   },
+   {
+    "price": 46204,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 870,
+    "departs": "15:55",
+    "arrives": "14:25",
+    "next_day": true,
+    "journey_min": 1560,
+    "flight_nos": "6E 1345 + QR 39"
+   },
+   {
+    "price": 47607,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131"
+   },
+   {
+    "price": 50318,
+    "airline": "LOT",
+    "to": "CDG",
+    "stops": 1,
+    "via": "WAW",
+    "layover_min": 220,
+    "departs": "08:00",
+    "arrives": "18:50",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "LO 72 + LO 335"
    },
    {
     "price": 82669,
@@ -928,7 +1418,7 @@
     "flight_nos": "AF 283"
    },
    {
-    "price": 92042,
+    "price": 98888,
     "airline": "SWISS",
     "to": "CDG",
     "stops": 1,
@@ -941,7 +1431,186 @@
     "flight_nos": "LX 147 + LX 632"
    }
   ],
+  "2027-03-31": [],
   "2027-04-01": [],
-  "2027-04-02": []
+  "2027-04-02": [
+   {
+    "price": 25069,
+    "airline": "Kuwait Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "KWI",
+    "layover_min": 245,
+    "departs": "02:00",
+    "arrives": "12:40",
+    "next_day": false,
+    "journey_min": 850,
+    "flight_nos": "KU 382 + KU 167",
+    "sites": [
+     {
+      "name": "Kuwait Airways (airline)",
+      "price": 25069
+     },
+     {
+      "name": "Wego",
+      "price": 25069
+     },
+     {
+      "name": "Gotogate",
+      "price": 27094
+     }
+    ]
+   },
+   {
+    "price": 30097,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 955,
+    "departs": "21:30",
+    "arrives": "21:10",
+    "next_day": true,
+    "journey_min": 1630,
+    "flight_nos": "6E 1307 + QR 37",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 30097
+     },
+     {
+      "name": "Gotogate",
+      "price": 32122
+     }
+    ]
+   },
+   {
+    "price": 36072,
+    "airline": "IndiGo / Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 870,
+    "departs": "15:55",
+    "arrives": "14:25",
+    "next_day": true,
+    "journey_min": 1560,
+    "flight_nos": "6E 1345 + QR 39",
+    "sites": [
+     {
+      "name": "Qatar Airways (airline)",
+      "price": 36072
+     },
+     {
+      "name": "Gotogate",
+      "price": 38097
+     }
+    ]
+   },
+   {
+    "price": 38002,
+    "airline": "Saudia",
+    "to": "CDG",
+    "stops": 1,
+    "via": "JED",
+    "layover_min": 585,
+    "departs": "20:05",
+    "arrives": "13:55",
+    "next_day": true,
+    "journey_min": 1280,
+    "flight_nos": "SV 759 + SV 127"
+   },
+   {
+    "price": 38157,
+    "airline": "Oman Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "MCT",
+    "layover_min": 205,
+    "departs": "08:55",
+    "arrives": "19:45",
+    "next_day": false,
+    "journey_min": 860,
+    "flight_nos": "WY 242 + WY 131"
+   },
+   {
+    "price": 40891,
+    "airline": "Qatar Airways",
+    "to": "CDG",
+    "stops": 1,
+    "via": "DOH",
+    "layover_min": 785,
+    "departs": "10:25",
+    "arrives": "07:30",
+    "next_day": true,
+    "journey_min": 1475,
+    "flight_nos": "QR 571 + QR 41"
+   },
+   {
+    "price": 50104,
+    "airline": "Gulf Air",
+    "to": "CDG",
+    "stops": 1,
+    "via": "BAH",
+    "layover_min": 110,
+    "departs": "21:50",
+    "arrives": "07:55",
+    "next_day": true,
+    "journey_min": 815,
+    "flight_nos": "GF 135 + GF 19"
+   },
+   {
+    "price": 70008,
+    "airline": "Air France",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "02:40",
+    "arrives": "08:20",
+    "next_day": false,
+    "journey_min": 550,
+    "flight_nos": "AF 283"
+   },
+   {
+    "price": 70951,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "13:00",
+    "arrives": "19:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 143"
+   },
+   {
+    "price": 73051,
+    "airline": "Air India",
+    "to": "CDG",
+    "stops": 0,
+    "via": null,
+    "layover_min": null,
+    "departs": "05:00",
+    "arrives": "11:15",
+    "next_day": false,
+    "journey_min": 585,
+    "flight_nos": "AI 147"
+   },
+   {
+    "price": 73604,
+    "airline": "SWISS",
+    "to": "CDG",
+    "stops": 1,
+    "via": "ZRH",
+    "layover_min": 65,
+    "departs": "01:05",
+    "arrives": "08:55",
+    "next_day": false,
+    "journey_min": 680,
+    "flight_nos": "LX 147 + LX 632"
+   }
+  ]
  }
 }
