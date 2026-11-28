@@ -5713,3 +5713,11 @@ scraped_at,travel_date,min_all,min_nonstop,min_cdg,min_ory,best_airline,best_rou
 2026-11-28T13:10:00Z,2027-03-29,29868,82684,29868,,IndiGo / Qatar Airways,via DOH,12,29868,Qatar Airways (airline)
 2026-11-28T13:10:00Z,2027-03-30,29868,82684,29868,,IndiGo / Qatar Airways,via DOH,12,37534,Etihad (airline)
 2026-11-28T13:10:00Z,2027-03-31,29868,82684,29868,,IndiGo / Qatar Airways,via DOH,13,37534,Etihad (airline)
+2026-11-28T14:10:00Z,2027-03-15,48803,,,48803,British Airways / Vueling,via LHR,3,70229,British Airways (airline)
+2026-11-28T14:10:00Z,2027-03-18,27736,58939,27736,,Gulf Air,via BAH,12,27736,Travomint
+2026-11-28T14:10:00Z,2027-03-21,31416,55381,31416,80792,Qatar Airways,via DOH,13,31416,Qatar Airways (airline)
+2026-11-28T14:10:00Z,2027-03-24,29868,68026,29868,,IndiGo / Qatar Airways,via DOH,10,29868,Qatar Airways (airline)
+2026-11-28T14:10:00Z,2027-03-26,29390,68026,29390,,Qatar Airways,via DOH,12,30109,Qatar Airways (airline)
+2026-11-28T14:10:00Z,2027-03-27,31416,79310,31416,,Qatar Airways,via DOH,12,31416,Qatar Airways (airline)
+2026-11-28T14:10:00Z,2027-03-28,32136,78722,32136,,IndiGo / Qatar Airways,via DOH,15,38005,Saudia (airline)
+2026-11-28T14:10:00Z,2027-04-02,25068,70028,25068,,Kuwait Airways,via KWI,11,25068,Kuwait Airways (airline)
